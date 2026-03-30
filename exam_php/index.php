@@ -21,7 +21,7 @@
             <ul class="flex justify-between items-center gap-7">
                 <li class="flex gap-1 items-center">
                     <i data-lucide="house" class="w-4 h-4"></i>
-                    <a href="">Accueil</a>
+                    <a href="index.php">Accueil</a>
                 </li>
                 <li class="flex gap-2 items-center">
                     <i data-lucide="inbox" class="w-4 h-4"></i>
@@ -33,7 +33,7 @@
                 </li>
                 <li class="flex items-center gap-2">
                     <i data-lucide="library" class="w-4 h-4"></i>
-                    <a href="">Ressources</a>
+                    <a href="ressources.php">Ressources</a>
                 </li>
                 <li class="flex items-center gap-2">
                     <i data-lucide="info" class="h-4 w-4"></i>
