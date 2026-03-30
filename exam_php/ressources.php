@@ -679,7 +679,7 @@
                 <span class="mt-3 text-justify">
                     Documentation complète pour APT, DNF, Pacman et autres.
                 </span>
-                <div>
+                <div class="mt-18">
                     <div class="badge badge-outline">APT</div>
                     <div class="badge badge-outline">DNF</div>
                     <div class="badge badge-outline">Pacman</div>
@@ -690,6 +690,106 @@
                     consulter
                 </button>
             </div>
+
+            <div class="card bg-base-100 p-5 gap-3 mt-4">
+                <div class="mt-5">
+                    <i 
+                        data-lucide="server"
+                        class="text-purple-500 h-12 w-12 mb-4"
+                    ></i>
+                    <span class="font-bold text-xl">
+                        Administration Système
+                    </span>
+                </div>
+                <span class="mt-1 text-justify">
+                    Guides sur systemd, cron, logs, utilisateurs et permissions.
+                </span>
+               <div class="mt-18">
+                <div class="badge badge-outline">sytemd</div>
+                <div class="badge badge-outline">cron</div>
+                <div class="badge badge-outline">logs</div>
+               </div>
+                <button
+                    class="btn btn-primary"
+                >
+                    consulter
+                </button>
+            </div>
+
+             <div class="card bg-base-100 p-5 gap-3 mt-4">
+                <div class="mt-5">
+                    <i 
+                        data-lucide="shield-check"
+                        class="text-red-500 h-12 w-12 mb-4"
+                    ></i>
+                    <span class="font-bold text-xl">
+                        Sécurité
+                    </span>
+                </div>
+                <span class="mt-1 text-justify">
+                    Bonnes pratiques, firewall, SELinux, AppArmor et chiffrement.
+                </span>
+               <div class="mt-18">
+                <div class="badge badge-outline">iptables</div>
+                <div class="badge badge-outline">SELinux</div>
+                <div class="badge badge-outline">SSH</div>
+               </div>
+                <button
+                    class="btn btn-primary"
+                >
+                    consulter
+                </button>
+            </div>
+
+            <div class="card bg-base-100 p-5 gap-3 mt-4">
+                <div class="mt-5">
+                    <i 
+                        data-lucide="git-branch"
+                        class="text-yellow-500 h-12 w-12 mb-4"
+                    ></i>
+                    <span class="font-bold text-xl">
+                        Kernel Linux
+                    </span>
+                </div>
+                <span class="mt-1 text-justify">
+                    Documentation du noyau, modules et compilation personnalisée.
+                </span>
+               <div class="mt-18">
+                <div class="badge badge-outline">Modules</div>
+                <div class="badge badge-outline">Compilation</div>
+               </div>
+                <button
+                    class="btn btn-primary"
+                >
+                    consulter
+                </button>
+            </div>
+
+            <div class="card bg-base-100 p-5 gap-3 mt-4">
+                <div class="mt-5">
+                    <i 
+                        data-lucide="hard-drive"
+                        class="text-green-500 h-12 w-12 mb-4"
+                    ></i>
+                    <span class="font-bold text-xl">
+                        Systèmes de fichiers
+                    </span>
+                </div>
+                <span class="mt-1 text-justify">
+                    ext4, Btrfs, XFS, ZFS - Gestion et optimisation du stockage.
+                </span>
+               <div class="mt-18">
+                <div class="badge badge-outline">ext4</div>
+                <div class="badge badge-outline">Btrfs</div>
+                <div class="badge badge-outline">ZFS</div>
+               </div>
+                <button
+                    class="btn btn-primary"
+                >
+                    consulter
+                </button>
+            </div>
+
         </div>
 
     </section>
