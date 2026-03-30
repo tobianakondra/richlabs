@@ -796,7 +796,7 @@
 
 
     <section class="py-20 px-4 lg:px-65">
-        <div class="flex gap-2 items-center mb-15">
+        <div class="flex gap-2 items-center mb-10">
             <i 
                 data-lucide="video"
                 class="w-12 h-12 text-pink-500"
@@ -821,10 +821,26 @@
                             </span>
                         </div>
                 </div>
-                <div class="flex">
-                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div class="flex flex-col bg-zinc-500 p-4 mt-5 rounded-xl font-mono">
+                    <div class="flex gap-1">
+                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <div class="mt-3 ml-5">
+                        <span class="text-green-400">$</span>
+                        <span class="text-green-400">ls -la</span> <br>
+                        <span class="text-yellow-400">></span>
+                        <span class="text-yellow-400">total 48</span> <br>
+                        <span class="text-yellow-400">></span>
+                        <span class="text-yellow-400 text-justify">drwxr-xr-x 5 user user 4096 Jan 15 10:30 .</span> <br>
+                        <span class="text-red-500 animate-pulse">$_</span>
+                    </div>
                 </div>
+                <button class="btn btn-primary mt-4">
+                    <i data-lucide="play"></i>
+                    Lancer le terminal
+                </button>
             </div>
         </div>
     </section>
