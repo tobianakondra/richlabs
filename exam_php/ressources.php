@@ -649,8 +649,13 @@
                     <div class="bg-yellow-500 w-3 h-3 rounded-full"></div>
                     <div class="bg-green-500 w-3 h-3 rounded-full"></div>
                 </div>
-                <div class="font-mono">
+                <div class="font-mono mt-4">
+                    <div>
+                        <span>$</span>
+                        <span>man ls</span>
+                    </div>
                     <span>$</span>
+                    <span>man grep</span>
                 </div>
             </div>
         </div>
