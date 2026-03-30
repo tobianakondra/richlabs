@@ -630,35 +630,68 @@
             </span>
         </div>
 
-        <div class="card bg-base-100 p-5 gap-4 mt-4">
-            <div class="mt-5">
-                <i 
-                    data-lucide="book-text"
-                    class="text-blue-500 h-12 w-12 mb-4"
-                ></i>
-                <span class="font-bold text-xl">
-                    Pages Man
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="card bg-base-100 p-5 gap-4 mt-4">
+                <div class="mt-5">
+                    <i 
+                        data-lucide="book-text"
+                        class="text-blue-500 h-12 w-12 mb-4"
+                    ></i>
+                    <span class="font-bold text-xl">
+                        Pages Man
+                    </span>
+                </div>
+                <span class="mt-3 text-justify">
+                    Accédez aux manuels complets de toutes les commandes Linux en ligne.
                 </span>
-            </div>
-            <span class="mt-3 text-justify">
-                Accédez aux manuels complets de toutes les commandes Linux en ligne.
-            </span>
-            <div class="bg-zinc-500 p-3 rounded-xl">
-                <div class="flex gap-1">
-                    <div class="bg-red-500 w-3 h-3 rounded-full"></div>
-                    <div class="bg-yellow-500 w-3 h-3 rounded-full"></div>
-                    <div class="bg-green-500 w-3 h-3 rounded-full"></div>
-                </div>
-                <div class="font-mono mt-4">
-                    <div>
-                        <span>$</span>
-                        <span>man ls</span>
+                <div class="bg-zinc-500 p-3 rounded-xl">
+                    <div class="flex gap-1">
+                        <div class="bg-red-500 w-3 h-3 rounded-full"></div>
+                        <div class="bg-yellow-500 w-3 h-3 rounded-full"></div>
+                        <div class="bg-green-500 w-3 h-3 rounded-full"></div>
                     </div>
-                    <span>$</span>
-                    <span>man grep</span>
+                    <div class="font-mono mt-4 ml-5">
+                        <div>
+                            <span>$</span>
+                            <span>man ls</span>
+                        </div>
+                        <span>$</span>
+                        <span>man grep</span>
+                    </div>
                 </div>
+                <button
+                    class="btn btn-primary"
+                >
+                    consulter
+                </button>
+            </div>
+
+            <div class="card bg-base-100 p-5 gap-4 mt-4">
+                <div class="mt-5">
+                    <i 
+                        data-lucide="package"
+                        class="text-yellow-500 h-12 w-12 mb-4"
+                    ></i>
+                    <span class="font-bold text-xl">
+                        Gestionnaires de Paquets
+                    </span>
+                </div>
+                <span class="mt-3 text-justify">
+                    Documentation complète pour APT, DNF, Pacman et autres.
+                </span>
+                <div>
+                    <div class="badge badge-outline">APT</div>
+                    <div class="badge badge-outline">DNF</div>
+                    <div class="badge badge-outline">Pacman</div>
+                </div>
+                <button
+                    class="btn btn-primary"
+                >
+                    consulter
+                </button>
             </div>
         </div>
+
     </section>
 
     <script>
