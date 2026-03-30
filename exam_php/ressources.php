@@ -805,9 +805,26 @@
                 Outils Interactifs
             </span>
         </div>
-        <div class="grid grid-cols1 md:grid-cols-2 lg:grid-cols-3 bg-base-200 p-5">
-            <div class="card">
-                <i data-lucide="terminal"></i>
+        <div class="grid grid-cols1 md:grid-cols-2 lg:grid-cols-3 p-5">
+            <div class="card bg-base-200 p-4">
+                <div class="flex items-center gap-2">
+                        <i 
+                            data-lucide="terminal"
+                            class="w-20 h-20 text-green-500"
+                        ></i>
+                        <div class="ml-5 mt-3 gap-5">
+                            <span class="text-2xl font-bold">
+                                Terminal Interactif <br>
+                            </span>
+                            <span>
+                                Testez vos commandes dans un environnement sécurisé
+                            </span>
+                        </div>
+                </div>
+                <div class="flex">
+                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                </div>
             </div>
         </div>
     </section>
