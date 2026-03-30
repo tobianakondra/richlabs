@@ -794,6 +794,23 @@
 
     </section>
 
+
+    <section class="py-20 px-4 lg:px-65">
+        <div class="flex gap-2 items-center mb-15">
+            <i 
+                data-lucide="video"
+                class="w-12 h-12 text-pink-500"
+            ></i>
+            <span class="text-4xl font-bold">
+                Outils Interactifs
+            </span>
+        </div>
+        <div class="grid grid-cols1 md:grid-cols-2 lg:grid-cols-3 bg-base-200 p-5">
+            <div class="card">
+                <i data-lucide="terminal"></i>
+            </div>
+        </div>
+    </section>
     <script>
             lucide.createIcons();
     </script>
