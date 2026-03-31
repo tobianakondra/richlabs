@@ -307,7 +307,7 @@
                 <button class="btn btn-primary">Découvrir</button>
             </div>
 
-             <div class="card bg-base-100 p-6 gap-3">
+            <div class="card bg-base-100 p-6 gap-3">
                 <img 
                     src="https://cdn.simpleicons.org/linuxmint/87CF3E" 
                     alt="linux-miny-logo"
