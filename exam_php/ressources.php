@@ -805,7 +805,7 @@
                 Outils Interactifs
             </span>
         </div>
-        <div class="grid grid-cols1 md:grid-cols-2 lg:grid-cols-3 p-5">
+        <div class="grid grid-cols1 md:grid-cols-2 lg:grid-cols-3 p-5 gap-3">
             <div class="card bg-base-200 p-4">
                 <div class="flex items-center gap-2">
                         <i 
@@ -841,6 +841,93 @@
                     <i data-lucide="play"></i>
                     Lancer le terminal
                 </button>
+            </div>
+
+            <div class="card bg-base-200 p-4">
+                <div class="flex items-center gap-2">
+                        <i 
+                            data-lucide="box"
+                            class="w-20 h-20 text-blue-500"
+                        ></i>
+                        <div class="ml-5 mt-3 gap-5">
+                            <span class="text-2xl font-bold">
+                                Sandbox Linux <br>
+                            </span>
+                            <span>
+                                Environnement virtuel pour expérimenter sans risque
+                            </span>
+                        </div>
+                </div>
+                <div class="flex mt-4 flex-col">
+                    <span class="flex gap-2 mb-2">
+                         <i 
+                            data-lucide="circle-check-big"
+                            class="text-green-500"
+                        ></i>
+                        Accès root complet
+                    </span>
+                    <span class="flex gap-2 mb-2">
+                         <i 
+                            data-lucide="circle-check-big"
+                            class="text-green-500"
+                        ></i>
+                        Réinitialisation instantanée
+                    </span>
+                    <span class="flex gap-2 mb-2">
+                         <i 
+                            data-lucide="circle-check-big"
+                            class="text-green-500"
+                        ></i>
+                        Plusieurs distributions disponibles
+                    </span>
+                </div>
+                <button class="btn btn-primary mt-25">
+                    <i data-lucide="rocket"></i>
+                    Démarrer une sandbox
+                </button>
+            </div>
+
+            <div class="card bg-base-200 p-4">
+                <div class="flex items-center gap-2">
+                        <i 
+                            data-lucide="repeat-2"
+                            class="w-20 h-20 text-purple-500"
+                        ></i>
+                        <div class="ml-5 mt-3 gap-5">
+                            <span class="text-2xl font-bold">
+                                Comparateur de distros <br>
+                            </span>
+                            <span>
+                                Comparez les distributions pour trouver la vôtre
+                            </span>
+                        </div>
+                </div>
+                <div>
+                    <span class="mt-2">Sélectionnez 2 distributions</span>
+                    <div class="flex gap-2">
+                        <select
+                            class="select mt-2"
+                        >
+                            <option>Ubuntu</option>
+                            <option>Fedora</option>
+                            <option>Arch Linux</option>
+                        </select>
+                        <select
+                            class="select mt-2"
+                        >
+                            <option>Debian</option>
+                            <option>Manjaro</option>
+                            <option>Pop!_OS</option>
+                        </select>
+                    </div>
+                    <button
+                        class="btn btn-primary mt-15 w-full"
+                    >
+                        <i data-lucide="repeat-1"></i>
+                        Comparer
+                    </button>
+                </div>
+
             </div>
         </div>
     </section>
