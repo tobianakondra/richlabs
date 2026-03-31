@@ -931,6 +931,10 @@
             </div>
         </div>
     </section>
+
+    <?php 
+        include 'footer.php';
+    ?>
     <script>
             lucide.createIcons();
     </script>

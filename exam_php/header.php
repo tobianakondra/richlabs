@@ -25,7 +25,7 @@
                 </li>
                 <li class="flex gap-2 items-center">
                     <i data-lucide="inbox" class="w-4 h-4"></i>
-                    <a href="">Distribution</a>
+                    <a href="distributions.php">Distribution</a>
                 </li>
                 <li class="flex items-center gap-2">
                     <i data-lucide="book-open" class="w-4 h-4"></i>
