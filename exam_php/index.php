@@ -310,7 +310,7 @@
             <div class="card bg-base-100 p-6 gap-3">
                 <img 
                     src="https://cdn.simpleicons.org/linuxmint/87CF3E" 
-                    alt="linux-miny-logo"
+                    alt="linux-mint-logo"
                     class="w-20 h-20"
                 >
                 <span class="text-2xl font-bold">Linux Mint</span>

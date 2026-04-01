@@ -123,7 +123,7 @@
                 </span>
             </div>
 
-            <article class="grid grid-cols-1 md:grid-cols-2 lg: grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+            <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
                 <div class="card bg-base-200 p-6 gap-3">
                     <img 
                         src="https://cdn.simpleicons.org/ubuntu/E95420" 
@@ -252,7 +252,7 @@
             Distributions optimisées pour le développement logiciel
         </div>
 
-        <article class="grid grid-cols-1 md:grid-cols-2 lg: grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
             <div class="card bg-base-100 p-6 gap-3">
                 <img 
                     src="https://cdn.simpleicons.org/fedora/51A2DA" 
@@ -381,7 +381,7 @@
                 Distributions spécialisées en cybersécurité et tests de pénétration
         <div>
 
-        <article class="grid grid-cols-1 md:grid-cols-2 lg: grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2 transistion-all">
                 <img 
                     src="https://cdn.simpleicons.org/kalilinux/557C94" 
@@ -474,12 +474,12 @@
                 Distributions spécialisées en renseignement open source et investigation
         <div>
 
-        <article class="grid grid-cols-1 md:grid-cols-2 lg: grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
             <div class="card bg-base-100 p-6 gap-3 hover:-translate-y-2">
                 <img 
                     src="csi.png" 
                     alt="kali-linux-logo"
-                    class="w-20 h-20"
+                    class="w-20 h-20 rounded-full"
                 >
                 <span class="text-2xl font-bold">CSI Linux</span>
                 <div class="flex items-center gap-3">
@@ -516,7 +516,7 @@
                 <img 
                     src="tracelabs.jpeg" 
                     alt="traceLabs"
-                    class="w-20 h-20"
+                    class="w-20 h-20 rounded-full"
                 >
                 <span class="text-2xl font-bold">Trace Labs OSINT</span>
                 <div class="flex items-center gap-3">
@@ -565,7 +565,7 @@
             Distributions optimisées pour les jeux vidéo avec support GPU avancé.
         <div>
         
-        <article class="grid grid-cols-1 md:grid-cols-2 lg: grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2">
                 <img 
                     src="https://cdn.simpleicons.org/popos/48B9C7" 
@@ -574,16 +574,90 @@
                 >
                 <span class="text-2xl font-bold">Pop!_OS</span>
                 <div class="flex items-center gap-3">
-                    <div class="badge badge-warning badge-xl">Intermédiaire</div>
-                    <div class="badge badge-neutral badge-xl">Sécurité</div>
-                    <div class="badge badge-neutral badge-xl">Pentest</div>
+                    <div class="badge badge-success badge-xl">Débutant</div>
+                    <div class="badge badge-neutral badge-xl">Gaming</div>
+                    <div class="badge badge-neutral badge-xl">GPU</div>
                 </div>
-                <span>Distribution spécialisée en investigation numérique et OSINT avec outils préinstallés.</span>
+                <span>Excellent support GPU NVIDIA et AMD. Optimisée pour le gaming avec Steam et Proton.</span>
                 <div class="divider my-2"></div>
                 <div class="flex flex-col">
-                    <span>Sortie: 2019</span>
+                    <span>Sortie: 2017</span>
                     <span>Paquets: APT (deb)</span>
-                    <span>Bureau: Xcfe</span>
+                    <span>Bureau: COSMIC</span>
+                </div>
+                <div class="flex justify-end gap-2">
+                    <button class="btn btn-outline btn-sm">
+                        <i 
+                            data-lucide="info"
+                            class="h-5 w-5"
+                        ></i>
+                        Détails
+                    </button>
+                    <button class="btn btn-primary btn-sm">
+                        <i 
+                            data-lucide="download"
+                            class="h-5 w-5"
+                        ></i>
+                        Télécharger
+                    </button>
+                </div>
+            </div>
+
+            <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2">
+                <img 
+                    src="nobara.jpeg" 
+                    alt="pop!_os"
+                    class="w-20 h-20 rounded-full"
+                >
+                <span class="text-2xl font-bold">Nobara</span>
+                <div class="flex items-center gap-3">
+                    <div class="badge badge-warning badge-xl">Intermédiaire</div>
+                    <div class="badge badge-neutral badge-xl">Gaming</div>
+                    <div class="badge badge-neutral badge-xl">GPU</div>
+                </div>
+                <span>Basée sur Fedora, optimisée pour le gaming et le streaming avec codecs préinstallés.</span>
+                <div class="divider my-2"></div>
+                <div class="flex flex-col">
+                    <span>Sortie: 2022</span>
+                    <span>Paquets: DNF (rpm)</span>
+                    <span>Bureau: KDE/GNOME</span>
+                </div>
+                <div class="flex justify-end gap-2">
+                    <button class="btn btn-outline btn-sm">
+                        <i 
+                            data-lucide="info"
+                            class="h-5 w-5"
+                        ></i>
+                        Détails
+                    </button>
+                    <button class="btn btn-primary btn-sm">
+                        <i 
+                            data-lucide="download"
+                            class="h-5 w-5"
+                        ></i>
+                        Télécharger
+                    </button>
+                </div>
+            </div>
+
+            <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2">
+                <img 
+                    src="https://cdn.simpleicons.org/garudalinux/0080FF" 
+                    alt="pop!_os"
+                    class="w-20 h-20"
+                >
+                <span class="text-2xl font-bold">Garuda Linux</span>
+                <div class="flex items-center gap-2">
+                    <div class="badge badge-warning badge-2sm">Intermédiaire</div>
+                    <div class="badge badge-neutral badge-2sm">Gaming</div>
+                    <div class="badge badge-neutral badge-2sm">Performance</div>
+                </div>
+                <span>Basée sur Arch, avec optimisations gaming et interface moderne. Très performante.</span>
+                <div class="divider my-2"></div>
+                <div class="flex flex-col">
+                    <span>Sortie: 2020</span>
+                    <span>Paquets: DNF Pacman</span>
+                    <span>Bureau: KDE/GNOME</span>
                 </div>
                 <div class="flex justify-end gap-2">
                     <button class="btn btn-outline btn-sm">
@@ -603,6 +677,445 @@
                 </div>
             </div>
         </article>
+    </section>
+
+    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-200">
+        <div class="flex items-center gap-2">
+            <i
+                data-lucide="shield-check"
+                class="text-success w-12 h-12"
+            ></i>
+            <span class="font-bold text-3xl">
+                Pour la sécurité défensive
+            </span>
+        </div>
+        <div class="mt-4 ml-5">
+            Distributions pour la défense, le monitoring et l'analyse de sécurité.
+        </div>
+        
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+            <div class="card bg-base-100 p-6 gap-3 shadow-xl hover:shadow-2xl hover:-translate-y-2">
+                <img 
+                    src="logo-so-onion-light.svg" 
+                    alt="Security Onion"
+                    class="w-20 h-20"
+                >
+                <span class="text-2xl font-bold">Security Onion</span>
+                <div class="flex items-center gap-3">
+                    <div class="badge badge-error badge-xl">Avancé</div>
+                    <div class="badge badge-neutral badge-xl">IDS/IPS</div>
+                    <div class="badge badge-neutral badge-xl">Monitoring</div>
+                </div>
+                <span>Plateforme complète pour la détection d'intrusions et le monitoring réseau.</span>
+                <div class="divider my-2"></div>
+                <div class="flex flex-col">
+                    <span>Sortie: 2008</span>
+                    <span>Paquets: APT (deb)</span>
+                    <span>Bureau: XFCE</span>
+                </div>
+                <div class="flex justify-end gap-2">
+                    <button class="btn btn-outline btn-sm">
+                        <i 
+                            data-lucide="info"
+                            class="h-5 w-5"
+                        ></i>
+                        Détails
+                    </button>
+                    <button class="btn btn-primary btn-sm">
+                        <i 
+                            data-lucide="download"
+                            class="h-5 w-5"
+                        ></i>
+                        Télécharger
+                    </button>
+                </div>
+            </div>
+
+            <div class="card bg-base-100 p-6 gap-3 hover:-translate-y-2">
+                <img 
+                    src="https://cdn.simpleicons.org/linux/FCC624" 
+                    alt="Wazuh"
+                    class="w-20 h-20"
+                >
+                <span class="text-2xl font-bold">Wazuh</span>
+                <div class="flex items-center gap-3">
+                    <div class="badge badge-warning badge-xl">Intermédiaire</div>
+                    <div class="badge badge-neutral badge-xl">SIEM</div>
+                    <div class="badge badge-neutral badge-xl">XDR</div>
+                </div>
+                <span>Plateforme de sécurité unifiée pour la détection de menaces et conformité.</span>
+                <div class="divider my-2"></div>
+                <div class="flex flex-col">
+                    <span>Sortie: 2015</span>
+                    <span>Paquets: APT/YUM</span>
+                    <span>Bureau: Server</span>
+                </div>
+                <div class="flex justify-end gap-2">
+                    <button class="btn btn-outline btn-sm">
+                        <i 
+                            data-lucide="info"
+                            class="h-5 w-5"
+                        ></i>
+                        Détails
+                    </button>
+                    <button class="btn btn-primary btn-sm">
+                        <i 
+                            data-lucide="download"
+                            class="h-5 w-5"
+                        ></i>
+                        Télécharger
+                    </button>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="lg:px-65 p-10 md:p-10 gap-5">
+            <div class="flex items-center gap-2">
+                <i
+                    data-lucide="clock-3"
+                    class="text-primary w-12 h-12"
+                ></i>
+                <span class="font-bold text-3xl">
+                    Histoire des distributions
+                </span>
+            </div>
+            <div class="mt-5">
+                L'évolution de l'écosystème Linux à travers le temps
+            </div>
+
+            <div class="mt-5">
+                <ul class="timeline timeline-vertical">
+                    <li>
+                        <div class="timeline-start timeline-box">
+                            <div class="text-sm">
+                                <span class="font-bold text-xl">
+                                    1993 - Debian <br>
+                                </span>
+                                Ian Murdock crée Debian, l'une des plus anciennes distributions encore actives.
+                                
+                        </div>
+                        </div>
+                        <div class="timeline-middle rounded-full bg-primary w-7 h-7 flex justify-center">
+                            
+                        </div>
+                        <hr 
+                            class="bg-primary"
+                        />
+                    </li>
+                    <li>
+                        <hr 
+                            class="bg-primary"
+                        />
+                        <div class="timeline-middle rounded-full bg-primary w-7 h-7 flex justify-center">
+
+                        </div>
+                        <div class="timeline-end timeline-box">
+                            <div class="text-sm">
+                                <span class="font-bold text-xl">
+                                    2002 - Arch Linux <br>
+                                </span>
+                                Judd Vinet lance Arch Linux, basée sur le principe KISS (Keep It Simple, Stupid).
+                            </div>
+                        </div>
+                        <hr 
+                            class="bg-primary"
+                        />
+                    </li>
+                    <li>
+                        <hr 
+                            class="bg-primary"
+                        />
+                        <div class="timeline-start timeline-box">
+                            <div class="text-sm">
+                                <span class="text-xl font-bold">
+                                    2004 - Ubuntu <br>
+                                </span>
+                                Mark Shuttleworth fonde Ubuntu, rendant Linux accessible au grand public.
+                            </div>
+                        </div>
+
+                        <div class="timeline-middle rounded-full bg-primary w-7 h-7">
+
+                        </div>
+                        <hr 
+                            class="bg-primary"
+                        />
+                    </li>
+                    <li>
+                        <hr
+                            class="bg-primary"
+                        />
+                        <div class="timeline-end timeline-box">
+                            <div class="">
+                                <span class="text-xl font-bold">
+                                    2006 - Linux Mint <br>
+                                </span> 
+                                <span class="text-sm">
+                                     Création de Linux Mint, basée sur Ubuntu avec une interface plus traditionnelle.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="timeline-middle rounded-full w-7 h-7 bg-primary"></div>
+                        <hr 
+                            class="bg-primary"
+                        />
+                    </li>
+                    <li>
+                        <hr 
+                            class="bg-primary"
+                        />
+                        <div class="timeline-start timeline-box">
+                            <div class="text-sm">
+                                <span class="text-xl font-bold">
+                                    2013 - Kali Linux <br>
+                                </span>
+                                Offensive Security lance Kali Linux, successeur de BackTrack pour la sécurité.
+                            </div>
+                        </div>
+
+                        <div class="timeline-middle rounded-full bg-primary w-7 h-7">
+
+                        </div>
+                        <hr 
+                            class="bg-primary"
+                        />
+                    </li>
+                    <li>
+                        <hr
+                            class="bg-primary"
+                        />
+                        <div class="timeline-end timeline-box">
+                            <div class="">
+                                <span class="text-xl font-bold">
+                                    2017 - Pop!_OS <br>
+                                </span> 
+                                <span class="text-sm">
+                                    System76 développe Pop!_OS, optimisée pour les créateurs et développeurs.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="timeline-middle rounded-full w-7 h-7 bg-primary"></div>
+                    </li>
+                </ul>
+            </div>
+    </section>
+
+    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-200 mt-6">
+        <div class="flex items-center gap-2">
+            <i
+                data-lucide="git-branch"
+                class="text-primary w-12 h-12"
+            ></i>
+            <span class="font-bold text-3xl">
+               Arbre généalogique
+            </span>
+        </div>
+        <div class="mt-4 ml-5">
+            Les relations entre les principales distributions Linux
+        </div>
+
+        <div class="bg-base-100 card p-4 mt-5">
+            <div class="flex justify-between">
+                <div class="">
+                    <div class="flex items-center">
+                        <img 
+                            src="https://cdn.simpleicons.org/debian/A81D33" 
+                            alt="debian-logo"
+                            class="w-12 h-12"
+                        >
+                        <span class="text-xl font-bold">
+                            Debian
+                        </span>
+                    </div>
+                    <div class="flex ml-15 gap-1 mt-3">
+                        <i
+                            data-lucide="corner-down-right"
+                            class="text-primary"
+                        ></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/ubuntu/E95420" 
+                                alt=""
+                                class="w-5 h-5"
+                            >
+                            <span>Ubuntu</span>
+                        </div>
+                    </div>
+                    <div class="flex ml-25 gap-1 mt-3">
+                        <i
+                            data-lucide="corner-down-right"
+                            class="text-purple-400"
+                        ></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/linuxmint/87CF3E" 
+                                alt=""
+                                class="w-5 h-5"
+                            >
+                            <span>Linux Mint</span>
+                        </div>
+                    </div>
+                    <div class="flex ml-25 gap-1 mt-3">
+                        <i
+                            data-lucide="corner-down-right"
+                            class="text-purple-400"
+                        ></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/popos/48B9C7" 
+                                alt=""
+                                class="w-5 h-5"
+                            >
+                            <span>Pop!_OS</span>
+                        </div>
+                    </div>
+                    <div class="flex ml-25 gap-1 mt-3">
+                        <i
+                            data-lucide="corner-down-right"
+                            class="text-purple-400"
+                        ></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/elementary/64BAFF" 
+                                alt=""
+                                class="w-5 h-5"
+                            >
+                            <span>Elementary OS</span>
+                        </div>
+                    </div>
+                    <div class="flex ml-15 gap-1 mt-3">
+                        <i
+                            data-lucide="corner-down-right"
+                            class="text-primary"
+                        ></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/kalilinux/557C94" 
+                                alt=""
+                                class="w-6 h-6"
+                            >
+                            <span>Kali Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <div class="flex items-center">
+                           <img 
+                                src="https://cdn.simpleicons.org/redhat/EE0000" alt=""
+                                class="w-10 h-10"
+                            >
+                            <span class="text-xl font-bold">
+                                Red Hat
+                            </span>
+                        </div>
+                        <div class="flex ml-15 gap-1 mt-3">
+                            <i
+                                data-lucide="corner-down-right"
+                                class="text-primary"
+                            ></i>
+                            <div class="flex items-center gap-2">
+                                <img 
+                                    src="https://cdn.simpleicons.org/fedora/51A2DA" 
+                                    alt=""
+                                    class="w-5 h-5"
+                                >
+                                <span>Fedora</span>
+                            </div>
+                        </div>
+                        <div class="flex ml-15 gap-1 mt-3">
+                            <i
+                                data-lucide="corner-down-right"
+                                class="text-primary"
+                            ></i>
+                            <div class="flex items-center gap-2">
+                                <img 
+                                    src="https://cdn.simpleicons.org/centos/262577" 
+                                    alt=""
+                                    class="w-5 h-5"
+                                >
+                                <span>CentOS</span>
+                            </div>
+                        </div>
+
+                        <div class="flex ml-15 gap-1 mt-3">
+                            <i
+                                data-lucide="corner-down-right"
+                                class="text-primary"
+                            ></i>
+                            <div class="flex items-center gap-2">
+                                <img 
+                                    src="https://cdn.simpleicons.org/rockylinux/10B981" 
+                                    alt=""
+                                    class="w-5 h-5"
+                                >
+                                <span>Rocky Linux</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <div class="flex items-center">
+                           <img 
+                                src="https://cdn.simpleicons.org/archlinux/1793D1" alt=""
+                                class="w-10 h-10"
+                            >
+                            <span class="text-xl font-bold">
+                                Arch Linux
+                            </span>
+                        </div>
+                        <div class="flex ml-15 gap-1 mt-3">
+                            <i
+                                data-lucide="corner-down-right"
+                                class="text-primary"
+                            ></i>
+                            <div class="flex items-center gap-2">
+                                <img 
+                                    src="https://cdn.simpleicons.org/manjaro/35BF5C" 
+                                    alt=""
+                                    class="w-5 h-5"
+                                >
+                                <span>Manjaro</span>
+                            </div>
+                        </div>
+                        <div class="flex ml-15 gap-1 mt-3">
+                            <i
+                                data-lucide="corner-down-right"
+                                class="text-primary"
+                            ></i>
+                            <div class="flex items-center gap-2">
+                                <img 
+                                    src="https://cdn.simpleicons.org/endeavouros/7F7FFF" 
+                                    alt=""
+                                    class="w-5 h-5"
+                                >
+                                <span>Andeavour OS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-100 mt-5">
+        <div class="flex items-center gap-2">
+            <i
+                data-lucide="chart-no-axes-column-increasing"
+                class="text-primary w-12 h-12"
+            ></i>
+            <span class="font-bold text-3xl">
+               Les distributions les plus utilisées en 2024
+            </span>
+        </div>
+        <div class="mt-4 ml-5">
+            Les distributions les plus utilisées en 2024
+        </div>
     </section>
     <script>
             lucide.createIcons();
