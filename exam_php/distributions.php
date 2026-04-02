@@ -1110,13 +1110,323 @@
                 class="text-primary w-12 h-12"
             ></i>
             <span class="font-bold text-3xl">
-               Les distributions les plus utilisées en 2024
+               Statistiques et popularité
             </span>
         </div>
-        <div class="mt-4 ml-5">
-            Les distributions les plus utilisées en 2024
+        <div class="">
+            <div>
+                Les distributions les plus utilisées en 2026
+                <div class="grid grid-cols-1 md:flex lg:flex md:justify-center md:gap-4 lg:justify-center lg:gap-4">
+                    <div>
+                        <div class="card mt-5 bg-base-200 p-6 gap-5 lg:w-130">
+                            <span class="font-bold">Top 10 des distributions</span>
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between">
+                                    <span class="font-bold text-sm">
+                                        Ubuntu
+                                    </span>
+                                    <span class="font-bold text-sm">35%</span>
+                                </div>
+                                <div class="flex items-center gap-1"> 
+                                    <progress 
+                                        class="progress progress-primary w-65 lg:w-120"
+                                        value="35" max="100"
+                                    ></progress>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between">
+                                    <span class="font-bold text-sm">
+                                        Debian
+                                    </span>
+                                    <span class="font-bold text-sm">18%</span>
+                                </div>
+                                <div class="flex items-center gap-1"> 
+                                    <progress 
+                                        class="progress progress-secondary w-65 lg:w-120"
+                                        value="18" max="100"
+                                    ></progress>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between">
+                                    <span class="font-bold text-sm">
+                                        Fedora
+                                    </span>
+                                    <span class="font-bold text-sm">12%</span>
+                                </div>
+                                <div class="flex items-center gap-1"> 
+                                    <progress 
+                                        class="progress progress-warning w-65 lg:w-120"
+                                        value="12" max="100"
+                                    ></progress>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between">
+                                    <span class="font-bold text-sm">
+                                        Arch Linux
+                                    </span>
+                                    <span class="font-bold text-sm">10%</span>
+                                </div>
+                                <div class="flex items-center gap-1"> 
+                                    <progress 
+                                        class="progress progress-info w-65 lg:w-120"
+                                        value="10" max="100"
+                                    ></progress>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between">
+                                    <span class="font-bold text-sm">
+                                        Linux Mint
+                                    </span>
+                                    <span class="font-bold text-sm">8%</span>
+                                </div>
+                                <div class="flex items-center gap-1"> 
+                                    <progress 
+                                        class="progress progress-success w-65 lg:w-120"
+                                        value="8" max="100"
+                                    ></progress>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between">
+                                    <span class="font-bold text-sm">
+                                        Manjaro
+                                    </span>
+                                    <span class="font-bold text-sm">6%</span>
+                                </div>
+                                <div class="flex items-center gap-1"> 
+                                    <progress 
+                                        class="progress progress-error w-65 lg:w-120"
+                                        value="6" max="100"
+                                    ></progress>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between">
+                                    <span class="font-bold text-sm">
+                                        Autres
+                                    </span>
+                                    <span class="font-bold text-sm">11%</span>
+                                </div>
+                                <div class="flex items-center gap-1"> 
+                                    <progress 
+                                        class="progress progress-neutral w-65 lg:w-120"
+                                        value="11" max="100"
+                                    ></progress>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-5 bg-base-200 p-6 gap-3 lg:w-130">
+                        <span class="font-bold">Utilisation par secteurs</span>
+                        <div class="flex flex-col gap-2">
+                            
+                                <div>
+                                    <div class="flex flex-col gap-2">
+                                        <div class="">
+                                            <div class="flex gap-2 justify-between">
+                                                <div class="flex gap-2">
+                                                    <i
+                                                        data-lucide="server"
+                                                        class="text-primary"
+                                                    ></i>
+                                                    <span class="font-bold">
+                                                            Server
+                                                    </span>
+                                                </div>
+                                                <span class="font-bold flex">
+                                                    78%
+                                                </span>
+                                                
+                                            </div>
+                                        </div>
+                                        <progress 
+                                            class="progress progress-primary w-65 lg:w-120"
+                                            value="78" max="100"
+                                        ></progress>
+                                    </div>
+
+                                    <div class="flex flex-col gap-2 mt-4">
+                                        <div class="">
+                                            <div class="flex gap-2 justify-between">
+                                                <div class="flex gap-2">
+                                                    <i
+                                                        data-lucide="cloud"
+                                                        class="text-secondary"
+                                                    ></i>
+                                                    <span class="font-bold">
+                                                            Cloud
+                                                    </span>
+                                                </div>
+                                                <span class="font-bold flex">
+                                                    92%
+                                                </span>
+                                                
+                                            </div>
+                                        </div>
+                                        <progress 
+                                            class="progress progress-secondary w-65 lg:w-120"
+                                            value="92" max="100"
+                                        ></progress>
+                                    </div>
+
+                                    <div class="flex flex-col gap-2 mt-4">
+                                        <div class="">
+                                            <div class="flex gap-2 justify-between">
+                                                <div class="flex gap-2">
+                                                    <i
+                                                        data-lucide="laptop-minimal"
+                                                        class="text-warning"
+                                                    ></i>
+                                                    <span class="font-bold">
+                                                            Desktop
+                                                    </span>
+                                                </div>
+                                                <span class="font-bold flex">
+                                                    3%
+                                                </span>
+                                                
+                                            </div>
+                                        </div>
+                                        <progress 
+                                            class="progress progress-warning w-65 lg:w-120"
+                                            value="3" max="100"
+                                        ></progress>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-200 mt-5">
+         <div class="flex items-center gap-2">
+            <i
+                data-lucide="circle-question-mark"
+                class="text-primary w-12 h-12"
+            ></i>
+            <span class="font-bold text-3xl">
+               Questions fréquentes
+            </span>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-100 border border-base-300 mt-4">
+            <input 
+                type="radio"
+                name="my-accordion-3"
+            />
+            <div class="collapse-title font-semibold">
+                Quelle distribution choisir pour débuter ?
+            </div>
+            <div class="collapse-content text-sm">
+                Pour débuter, nous recommandons Ubuntu ou Linux Mint. Ces distributions sont conviviales, bien documentées et disposent d'une grande communauté pour vous aider.
+            </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-100 border border-base-300 mt-4">
+            <input 
+                type="radio"
+                name="my-accordion-3"
+            />
+            <div class="collapse-title font-semibold">
+                Quelle est la difference entre Ubuntu et Linux Mint
+            </div>
+            <div class="collapse-content text-sm">
+                Ubuntu est basée sur Debian mais propose des versions plus récentes des logiciels et un cycle de release fixe (tous les 6 mois). Debian privilégie la stabilité avec des versions moins fréquentes.
+            </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-100 border border-base-300 mt-4">
+            <input 
+                type="radio"
+                name="my-accordion-3"
+            />
+            <div class="collapse-title font-semibold">
+                Puis je installer Linux à coté de Windows ?
+            </div>
+            <div class="collapse-content text-sm">
+                Oui, c'est ce qu'on appelle le dual-boot. Vous pourrez choisir au démarrage quel système utiliser. La plupart des distributions proposent cette option lors de l'installation.
+            </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-100 border border-base-300 mt-4">
+            <input 
+                type="radio"
+                name="my-accordion-3"
+            />
+            <div class="collapse-title font-semibold">
+                Qu'est-ce qu'une distribution rolling release ?
+            </div>
+            <div class="collapse-content text-sm">
+                Une rolling release (comme Arch Linux) reçoit des mises à jour continues sans versions majeures. Vous avez toujours les derniers logiciels, mais cela peut être moins stable.
+            </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-100 border border-base-300 mt-4">
+            <input 
+                type="radio"
+                name="my-accordion-3"
+            />
+            <div class="collapse-title font-semibold">
+                Linux est-il vraiment gratuit ?
+            </div>
+            <div class="collapse-content text-sm">
+                Oui, Linux est libre et gratuit. Vous pouvez télécharger, installer et utiliser n'importe quelle distribution sans payer. Certaines entreprises proposent du support payant, mais le système reste gratuit.
+            </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-100 border border-base-300 mt-4">
+            <input 
+                type="radio"
+                name="my-accordion-3"
+            />
+            <div class="collapse-title font-semibold">               
+                Mes jeux Windows fonctionneront-ils sur Linux ?
+            </div>
+            <div class="collapse-content text-sm">
+                Grâce à Steam Proton et Wine, de nombreux jeux Windows fonctionnent sur Linux. Pop!_OS et Manjaro sont particulièrement optimisées pour le gaming.
+            </div>
+        </div>
+    </section>
+
+    <section class="flex justify-center p-8">
+        <div class="grid grid-cols gap-2">
+            <span class="font-bold text-3xl text-center">
+                Prêt à essayer Linux ?
+            </span>
+            <span class="mt-3">
+                Téléchargez votre distribution et commencez votre aventure Linux aujourd'hui
+            </span>
+            <div class="grid grid-cols md:flex lg:flex md:gap-3 lg:gap-5 mt-4 ">
+                <button 
+                    class="btn btn-neutral btn-lg"
+                >
+                    <i data-lucide="download"></i>
+                    Télécharger Ubuntu
+                </button>
+                <button 
+                    class="btn btn-outline hover:text-pink-500 hover:bg-white btn-lg"
+                >
+                    <i data-lucide="book-open"></i>
+                    Guide d'installation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <?php include 'footer.php'; ?>
     <script>
             lucide.createIcons();
     </script>
