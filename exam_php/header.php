@@ -10,14 +10,14 @@
     <script src="https://unpkg.com/lucide"></script>
 </head>
 <body>
-    <header class=" flex justify-between sticky top-0 z-50 bg-base-100 shadow-lg p-4">
+    <header class="hidden lg:flex justify-between sticky top-0 z-50 bg-base-100 shadow-lg p-4">
         <div class="bg-neutral-500 font-bold text-xl p-2 rounded-xl cursor-pointer">
             >__
             <span class="text-blue-500">RichLabs</span>
         </div>
 
         
-        <div class="flex justify-between">
+        <div class=" hidden md:flex md:justify-between lg:flex lg:justify-between">
             <ul class="flex justify-between items-center gap-7">
                 <li class="flex gap-1 items-center">
                     <i data-lucide="house" class="w-4 h-4"></i>
@@ -29,7 +29,7 @@
                 </li>
                 <li class="flex items-center gap-2">
                     <i data-lucide="book-open" class="w-4 h-4"></i>
-                    <a href="">Cours</a>
+                    <a href="cours.php">Cours</a>
                 </li>
                 <li class="flex items-center gap-2">
                     <i data-lucide="library" class="w-4 h-4"></i>
@@ -37,12 +37,12 @@
                 </li>
                 <li class="flex items-center gap-2">
                     <i data-lucide="info" class="h-4 w-4"></i>
-                    <a href="">A propos</a>
+                    <a href="about.php">A propos</a>
                 </li>
             </ul>
         </div>
 
-        <div class="flex items-center gap-2">
+        <div class="hidden md:flex md:items-center gap-2 lg:flex lg:items-center">
                 <button 
                     class="btn"
                 >
@@ -59,6 +59,61 @@
             
         </div>
    </header>
+
+    <div class="navbar bg-base-100 shadow-sm lg:hidden p-2">
+                <div class="flex-1">
+                    <a class="text-xl bg-neutral-500 p-3 rounded-md" href="index.php">
+                        >_
+                        <span class="text-blue-500 font-bold">RichLabs</span>
+                    </a>
+                </div>
+                <div class="flex-none">
+                    <ul class="menu menu-horizontal px-15">
+                      <li>
+                        <details>
+                          <summary>
+                            <i data-lucide="menu"></i>
+                          </summary>
+                          <ul class="bg-base-100 rounded-t-none p-2">
+                                <li>
+                                    <a href="index.php">
+                                        <i data-lucide="house"></i>
+                                        Accueil
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="distributions.php">
+                                        <i data-lucide="inbox"></i>
+                                        Distro
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cours.php">
+                                        <i data-lucide="book-open"></i>
+                                        Cours
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="ressources.php">
+                                        <i data-lucide="library"></i>
+                                        Ressources
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.php">
+                                        <i data-lucide="info"></i>
+                                        A propos
+                                    </a>
+                                </li>
+                                
+                          </ul>
+                        </details>
+                      </li>
+                    </ul>
+                </div>
+    </div>
 
    <script>
             lucide.createIcons();

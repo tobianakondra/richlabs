@@ -10,215 +10,110 @@
     <script src="https://unpkg.com/lucide"></script>
 </head>
 <body>
-   <header class=" flex justify-between sticky top-0 z-50 bg-base-100 shadow-lg p-4">
-        <div class="bg-neutral-500 font-bold text-xl p-2 rounded-xl cursor-pointer">
-            >__
-            <span class="text-blue-500">RichLabs</span>
-        </div>
+   <?php include 'header.php'; ?>
 
-        
-        <div class="flex justify-between">
-            <ul class="flex justify-between items-center gap-7">
-                <li class="flex gap-1 items-center">
-                    <i data-lucide="house" class="w-4 h-4"></i>
-                    <a href="index.php">Accueil</a>
-                </li>
-                <li class="flex gap-2 items-center">
-                    <i data-lucide="inbox" class="w-4 h-4"></i>
-                    <a href="">Distribution</a>
-                </li>
-                <li class="flex items-center gap-2">
-                    <i data-lucide="book-open" class="w-4 h-4"></i>
-                    <a href="">Cours</a>
-                </li>
-                <li class="flex items-center gap-2">
-                    <i data-lucide="library" class="w-4 h-4"></i>
-                    <a href="ressources.php">Ressources</a>
-                </li>
-                <li class="flex items-center gap-2">
-                    <i data-lucide="info" class="h-4 w-4"></i>
-                    <a href="">A propos</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="flex items-center gap-2">
-                <button 
-                    class="btn"
-                >
-                    <i data-lucide="log-in" class="w-5 h-4"></i>
-                    Se connecter
-                </button>
-
-                <button
-                    class="btn btn-primary"
-                >
-                    <i data-lucide="user-plus"></i>
-                    S'inscrire
-                </button>
-            
-        </div>
-   </header>
-
-   <div class="flex flex-col items-center justify-center min-h-screen">
-    <div class="flex flex-col bg-zinc-500 border border-zinc-700 p-3 rounded-xl gap-2 mt-75">
+   <div class="flex flex-col items-center justify-center min-h-screen px-4">
+    <!-- Terminal -->
+    <div class="flex flex-col bg-zinc-500 border border-zinc-700 p-3 rounded-xl gap-2 mt-10 md:mt-20 lg:mt-32 w-full max-w-2xl">
         <div class="flex gap-2">
             <span class="w-3 h-3 rounded-full bg-red-500"></span>
             <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
             <span class="w-3 h-3 rounded-full bg-green-500"></span>
         </div>
-        <div class="flex ml-15 mt-3">
-            <span class="font-mono font-bold text-xl">~user@richlabs:~</span>
+        <div class="flex ml-2 md:ml-4 mt-3">
+            <span class="font-mono font-bold text-sm md:text-base lg:text-xl">~user@richlabs:~</span>
         </div>
-        <div class="flex flex-col ml-8 mr-8 p-2 pb-5">
-            <div>
-                <span class="ml-20 mr-5 text-green-500 font-mono">
-                    $
-                </span>
-                <span class="text-green-400 font-mono text-xl">
-                    sudo apt update
-                </span>
+        <div class="flex flex-col ml-2 md:ml-4 p-2 pb-5 overflow-x-auto">
+            <div class="flex flex-wrap items-center">
+                <span class="text-green-500 font-mono text-sm md:text-base mr-2">$</span>
+                <span class="text-green-400 font-mono text-sm md:text-base lg:text-xl">sudo apt update</span>
             </div>
-            <div>
-                <span class="ml-20 mr-5 text-yellow-400 font-mono">
-                    >
-                </span>
-                <span class="font-mono text-yellow-400">
-                    Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
-                </span>
+            <div class="flex flex-wrap items-center">
+                <span class="text-yellow-400 font-mono text-xs md:text-sm mr-2">></span>
+                <span class="font-mono text-yellow-400 text-xs md:text-sm break-all">Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease</span>
             </div>
-            <div>
-                <span class="ml-20 mr-5 text-yellow-300 font-mono">
-                    >
-                </span>
-                <span class="font-mono text-yellow-300">
-                    Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
-                </span>
+            <div class="flex flex-wrap items-center">
+                <span class="text-yellow-300 font-mono text-xs md:text-sm mr-2">></span>
+                <span class="font-mono text-yellow-300 text-xs md:text-sm break-all">Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease</span>
             </div>
-            <div>
-                <span class="ml-20 mr-5 text-blue-400 font-mono">
-                    >
-                </span>
-                <span class="font-mono text-blue-300">
-                    Reading package lists... Done
-                </span>
+            <div class="flex flex-wrap items-center">
+                <span class="text-blue-400 font-mono text-xs md:text-sm mr-2">></span>
+                <span class="font-mono text-blue-300 text-xs md:text-sm">Reading package lists... Done</span>
             </div>
-            <div>
-                <span class="ml-20 mr-5 text-red-300 font-mono animate-pulse">
-                    $
-                </span>
-                <span class="font-mono text-red-300">
-                    _
-                </span>
+            <div class="flex items-center">
+                <span class="text-red-300 font-mono animate-pulse text-sm md:text-base mr-2">$</span>
+                <span class="font-mono text-red-300">_</span>
             </div>
         </div>
     </div>
 
-    <div class="flex flex-col mt-30 text-xl p-4 gap-2">
-        <span>
-            Maîtrisez les distributions Linux avec des cours pratiques, des tutoriels interactifs et une communauté 
+    <!-- Hero Text -->
+    <div class="flex flex-col mt-8 md:mt-16 lg:mt-20 text-center px-4 gap-2 max-w-4xl">
+        <span class="text-base md:text-lg lg:text-xl">
+            Maîtrisez les distributions Linux avec des cours pratiques, des tutoriels interactifs et une communauté passionnée
         </span>
-        <span class="text-center">
-            passionnée
-        </span>
-        <div class="flex">
-            <div class="flex justify-center p-5 ml-45 gap-4">
-                <button 
-                    class="btn btn-primary h-15 font-bold text-xl"
-                >
-                    <i data-lucide="rocket"></i>
-                    Commencer gratuitement
-                </button>
-                <button 
-                    class="btn btn-neutral h-15 font-bold text-xl"
-                >
-                    <i data-lucide="play"></i>
-                    Voir la démo
-                </button>
-            </div>
-
+        
+        <!-- Buttons -->
+        <div class="flex flex-col md:flex-row justify-center gap-3 md:gap-4 mt-6">
+            <button class="btn btn-primary w-full md:w-auto text-base md:text-lg">
+                <i data-lucide="rocket"></i>
+                Commencer gratuitement
+            </button>
+            <button class="btn btn-neutral w-full md:w-auto text-base md:text-lg">
+                <i data-lucide="play"></i>
+                Voir la démo
+            </button>
         </div>
     </div>
 
-    <div class="flex flex-col mt-75 gap-3">
-        <span class="flex justify-center text-3xl font-bold">
+    <!-- Why Linux -->
+    <div class="flex flex-col mt-12 md:mt-20 lg:mt-32 gap-3 text-center px-4">
+        <span class="text-2xl md:text-3xl lg:text-4xl font-bold">
             Pourquoi apprendre Linux ?
         </span>
-        <span class="text-xl">
-            Linux est partout : serveurs, cloud, IoT, smartphones. Développez des compétences
-        </span>
-        <span class="text-xl text-center">
-            recherchées
+        <span class="text-base md:text-lg lg:text-xl max-w-3xl mx-auto">
+            Linux est partout : serveurs, cloud, IoT, smartphones. Développez des compétences recherchées
         </span>
     </div>
    </div>
 
-    <div class="flex p-4 justify-center gap-4 mt-4">
-            <div class="flex flex-col justify-center items-center p-5 gap-2 bg-base-200 rounded-xl hover:-translate-y-2">
-                <i 
-                    data-lucide="lock-open"
-                    class="w-30 h-20 text-pink-400"
-                ></i>
-                <span class="text-center text-xl mt-4">
-                    Open Source
-                </span>
-                <span class="text-center">
-                    Gratuit, libre et personnalisable à l'infini
-                </span>
-            </div>
-            <div class="flex flex-col justify-center items-center gap-2 bg-base-200 p-4 rounded-xl p-2 hover:-translate-y-2">
-                <i 
-                    data-lucide="shield-check"
-                    class="w-30 h-20 text-green-300"
-                ></i>
-                <span 
-                    class="text-xl text-center mt-4"
-                >
-                    Sécurité
-                </span>
-                <span
-                    class="text-center"
-                >
-                    Architecture robuste et mises à jour régulières
-                </span>
-            </div>
-            <div class="flex flex-col justify-center items-center p-5 gap-2 bg-base-200 rounded-xl hover:-translate-y-2">
-                <i 
-                    data-lucide="zap"
-                    class="w-30 h-20 text-yellow-400"
-                ></i>
-                <span class="text-center text-xl mt-4">
-                    Performance
-                </span>
-                <span class="text-center">
-                    Rapide, léger et optimisé pour tous les usages
-                </span>
-            </div>
-            <div class="flex flex-col justify-center items-center p-5 gap-2 bg-base-200 rounded-xl hover:-translate-y-2">
-                <i 
-                    data-lucide="briefcase"
-                    class="w-30 h-20 text-green-400"
-                ></i>
-                <span class="text-center text-xl mt-4">
-                    Carrière
-                </span>
-                <span class="text-center">
-                    Compétences très demandées sur le marché
-                </span>
-            </div>
+    <!-- Features Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 mt-8 max-w-7xl mx-auto">
+        <div class="flex flex-col justify-center items-center p-6 gap-3 bg-base-200 rounded-xl hover:-translate-y-2 transition-all">
+            <i data-lucide="lock-open" class="w-16 h-16 md:w-20 md:h-20 text-pink-400"></i>
+            <span class="text-center text-lg md:text-xl font-bold mt-2">Open Source</span>
+            <span class="text-center text-sm md:text-base">Gratuit, libre et personnalisable à l'infini</span>
+        </div>
+        
+        <div class="flex flex-col justify-center items-center p-6 gap-3 bg-base-200 rounded-xl hover:-translate-y-2 transition-all">
+            <i data-lucide="shield-check" class="w-16 h-16 md:w-20 md:h-20 text-green-300"></i>
+            <span class="text-center text-lg md:text-xl font-bold mt-2">Sécurité</span>
+            <span class="text-center text-sm md:text-base">Architecture robuste et mises à jour régulières</span>
+        </div>
+        
+        <div class="flex flex-col justify-center items-center p-6 gap-3 bg-base-200 rounded-xl hover:-translate-y-2 transition-all">
+            <i data-lucide="zap" class="w-16 h-16 md:w-20 md:h-20 text-yellow-400"></i>
+            <span class="text-center text-lg md:text-xl font-bold mt-2">Performance</span>
+            <span class="text-center text-sm md:text-base">Rapide, léger et optimisé pour tous les usages</span>
+        </div>
+        
+        <div class="flex flex-col justify-center items-center p-6 gap-3 bg-base-200 rounded-xl hover:-translate-y-2 transition-all">
+            <i data-lucide="briefcase" class="w-16 h-16 md:w-20 md:h-20 text-green-400"></i>
+            <span class="text-center text-lg md:text-xl font-bold mt-2">Carrière</span>
+            <span class="text-center text-sm md:text-base">Compétences très demandées sur le marché</span>
+        </div>
     </div>
 
-   <section class="bg-base-200 mt-35 p-5">
-        <span
-            class="text-5xl flex justify-center"
-        >
+   <!-- Distributions Section -->
+   <section class="bg-base-200 mt-12 md:mt-20 lg:mt-32 p-4 md:p-8 lg:p-12">
+        <span class="text-3xl md:text-4xl lg:text-5xl flex justify-center font-bold text-center">
             Distributions populaires
         </span>
-        <span class="flex justify-center mt-3">
+        <span class="flex justify-center mt-3 text-center text-sm md:text-base lg:text-lg px-4">
             Découvrez les distributions Linux les plus utilisées et trouvez celle qui vous correspond
         </span>
 
-        <article class="px-4 py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:mx-10">
+        <article class="px-4 py-8 md:py-12 lg:py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto">
             <div class="card bg-base-100 p-6 gap-3">
                 <img 
                     src="https://cdn.simpleicons.org/ubuntu/E95420" 
@@ -442,176 +337,155 @@
 
    </section>
 
-   <main class="bg-base-100  py-20">
-        <h1 class="text-5xl text-center mb-2">Comment ça marche</h1>
-        <p class="text-xl text-center">Un parcours simple et progressif pour devenir expert Linux</p>
-        <ul class="timeline timeline-vertical lg:timeline-horizontal mt-10 flex justify-center">
+   <!-- How it works -->
+   <main class="bg-base-100 py-12 md:py-16 lg:py-20 px-4">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl text-center mb-2 font-bold">Comment ça marche</h1>
+        <p class="text-base md:text-lg lg:text-xl text-center">Un parcours simple et progressif pour devenir expert Linux</p>
+        
+        <!-- Timeline - Vertical on mobile, horizontal on desktop -->
+        <ul class="timeline timeline-vertical lg:timeline-horizontal mt-8 md:mt-10 max-w-6xl mx-auto">
             <li>
                 <div class="timeline-start timeline-box gap-1">
-                    <div class="flex gap-1">
-                        <i 
-                            data-lucide="search"
-                            class="text-pink-500"
-                        ></i>
-                        <span class="font-bold text-xl">Choisir une distro</span>
+                    <div class="flex gap-1 items-center">
+                        <i data-lucide="search" class="text-pink-500 w-5 h-5"></i>
+                        <span class="font-bold text-lg md:text-xl">Choisir une distro</span>
                     </div>
-                    <span>Explorez et sélectionnez la distribution adaptée à vos besoins</span>
+                    <span class="text-sm md:text-base">Explorez et sélectionnez la distribution adaptée à vos besoins</span>
                 </div>
                 <div class="timeline-middle">
-                    <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center">1</div>
+                    <div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-primary flex items-center justify-center text-sm md:text-base">1</div>
                 </div>
                 <hr class="bg-primary">
             </li>
             <li>
                 <hr class="bg-primary">
-                <div class="timeline-middle rounded-full bg-primary flex justify-center items-center w-10 h-10">2</div>
+                <div class="timeline-middle rounded-full bg-primary flex justify-center items-center w-8 h-8 md:w-10 md:h-10 text-sm md:text-base">2</div>
                 <div class="timeline-end timeline-box">
                     <div class="flex gap-1 items-center">
-                        <i 
-                            data-lucide="graduation-cap"
-                            class="text-pink-300"
-                        ></i>
-                        <span class="font-bold text-xl">Suivre les cours</span>
+                        <i data-lucide="graduation-cap" class="text-pink-300 w-5 h-5"></i>
+                        <span class="font-bold text-lg md:text-xl">Suivre les cours</span>
                     </div>
-                    <span>Apprenez avec des tutoriels vidéo et des exercices pratiques</span>
+                    <span class="text-sm md:text-base">Apprenez avec des tutoriels vidéo et des exercices pratiques</span>
                 </div>
                 <hr class="bg-primary">
             </li>
             <li>
                 <hr class="bg-primary">
-                <div class="flex justify-center items-center rounded-full bg-primary timeline-middle w-10 h-10">3</div>
+                <div class="flex justify-center items-center rounded-full bg-primary timeline-middle w-8 h-8 md:w-10 md:h-10 text-sm md:text-base">3</div>
                 <div class="timeline-start timeline-box">
                     <div class="flex gap-1 items-center">
-                        <i 
-                            data-lucide="code"
-                            class="text-pink-300"
-                        ></i>
-                        <span class="font-bold text-xl">Pratiquer</span>
+                        <i data-lucide="code" class="text-pink-300 w-5 h-5"></i>
+                        <span class="font-bold text-lg md:text-xl">Pratiquer</span>
                     </div>
-                    <span>Mettez en pratique dans des environnements virtuels sécurisés</span>
+                    <span class="text-sm md:text-base">Mettez en pratique dans des environnements virtuels sécurisés</span>
                 </div>
                 <hr class="bg-primary">
             </li>
             <li>
                 <hr class="bg-primary">
-                <div class="timeline-middle flex items-center justify-center rounded-full w-10 h-10 bg-primary">4</div>
+                <div class="timeline-middle flex items-center justify-center rounded-full w-8 h-8 md:w-10 md:h-10 bg-primary text-sm md:text-base">4</div>
                 <div class="timeline-end timeline-box">
                     <div class="flex gap-1 items-center">
-                        <i 
-                            data-lucide="award"
-                            class="text-pink-400"
-                        ></i>
-                        <span class="font-bold text-xl">certifier</span>
+                        <i data-lucide="award" class="text-pink-400 w-5 h-5"></i>
+                        <span class="font-bold text-lg md:text-xl">Certifier</span>
                     </div>
-                    <span>Obtenez des certificats reconnus pour valoriser vos compétences</span>
+                    <span class="text-sm md:text-base">Obtenez des certificats reconnus pour valoriser vos compétences</span>
                 </div>
             </li>
         </ul>
    </main>
 
-   <section class="py-20 flex justify-center  bg-base-200">
-        <div class="flex flex-col gap-5">
-            <div class="flex flex-col gap-3">
-                <h1 class="text-center text-4xl">Cours disponibles</h1>
-                <span class="text-xl text-center">Des formations complètes pour tous les niveaux</span>
+   <!-- Courses Section -->
+   <section class="py-12 md:py-16 lg:py-20 bg-base-200 px-4">
+        <div class="flex flex-col gap-3 md:gap-5 max-w-7xl mx-auto">
+            <div class="flex flex-col gap-3 text-center">
+                <h1 class="text-3xl md:text-4xl font-bold">Cours disponibles</h1>
+                <span class="text-base md:text-lg lg:text-xl">Des formations complètes pour tous les niveaux</span>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                <div class="card bg-base-100 p-8 w-105">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
+                <div class="card bg-base-100 p-6 md:p-8 w-full">
                     <article class="flex flex-col gap-2">
-                        <i 
-                            data-lucide="book-open-check"
-                            class="text-pink-300 w-20 h-20 mb-4"
-                        ></i>
-                        <span class="font-bold text-xl">Introduction à Linux</span>
-                        <span>les bases essentielles pour debuter</span>
-                        <div class="flex gap-3 mt-2 mb-2">
-                            <div class="badge badge-outline badge-xl">12 leçons</div>
-                            <div class="badge badge-outline badge-xl">3h</div>
+                        <i data-lucide="book-open-check" class="text-pink-300 w-16 h-16 md:w-20 md:h-20 mb-4"></i>
+                        <span class="font-bold text-lg md:text-xl">Introduction à Linux</span>
+                        <span class="text-sm md:text-base">Les bases essentielles pour débuter</span>
+                        <div class="flex gap-3 mt-2 mb-2 flex-wrap">
+                            <div class="badge badge-outline badge-lg md:badge-xl">12 leçons</div>
+                            <div class="badge badge-outline badge-lg md:badge-xl">3h</div>
                         </div>
-                        <button class="btn btn-primary">Commencer</button>
+                        <button class="btn btn-primary w-full">Commencer</button>
                     </article>
                 </div>
 
-                <div class="card bg-base-100 p-6 w-105">
+                <div class="card bg-base-100 p-6 md:p-8 w-full">
                     <article class="flex flex-col gap-2">
-                        <i 
-                            data-lucide="terminal"
-                            class="text-green-300 w-20 h-20 mb-4"
-                        ></i>
-                        <span class="font-bold text-2xl">Ligne de Commande</span>
-                        <span class="text-xl">Maîtrisez le terminal Linux</span>
-                        <div class="flex gap-3 mt-2 mb-2">
-                            <div class="badge badge-outline badge-xl">20 leçons</div>
-                            <div class="badge badge-outline badge-xl">5h</div>
+                        <i data-lucide="terminal" class="text-green-300 w-16 h-16 md:w-20 md:h-20 mb-4"></i>
+                        <span class="font-bold text-lg md:text-xl">Ligne de Commande</span>
+                        <span class="text-sm md:text-base">Maîtrisez le terminal Linux</span>
+                        <div class="flex gap-3 mt-2 mb-2 flex-wrap">
+                            <div class="badge badge-outline badge-lg md:badge-xl">20 leçons</div>
+                            <div class="badge badge-outline badge-lg md:badge-xl">5h</div>
                         </div>
-                        <button class="btn btn-primary">Commencer</button>
+                        <button class="btn btn-primary w-full">Commencer</button>
                     </article>
                 </div>
 
-                <div class="card bg-base-100 p-6 w-105">
+                <div class="card bg-base-100 p-6 md:p-8 w-full">
                     <article class="flex flex-col gap-2">
-                        <i 
-                            data-lucide="database"
-                            class="text-yellow-300 w-20 h-20 mb-4"
-                        ></i>
-                        <span class="font-bold text-2xl">Administration Système</span>
-                        <span class="text-xl">Gérez serveurs et services</span>
-                        <div class="flex gap-3 mt-2 mb-2">
-                            <div class="badge badge-outline badge-xl">25 leçons</div>
-                            <div class="badge badge-outline badge-xl">8h</div>
+                        <i data-lucide="database" class="text-yellow-300 w-16 h-16 md:w-20 md:h-20 mb-4"></i>
+                        <span class="font-bold text-lg md:text-xl">Administration Système</span>
+                        <span class="text-sm md:text-base">Gérez serveurs et services</span>
+                        <div class="flex gap-3 mt-2 mb-2 flex-wrap">
+                            <div class="badge badge-outline badge-lg md:badge-xl">25 leçons</div>
+                            <div class="badge badge-outline badge-lg md:badge-xl">8h</div>
                         </div>
-                        <button class="btn btn-primary">Commencer</button>
+                        <button class="btn btn-primary w-full">Commencer</button>
                     </article>
                 </div>
 
-                <div class="card bg-base-100 p-6 w-105">
+                <div class="card bg-base-100 p-6 md:p-8 w-full">
                     <article class="flex flex-col gap-2">
-                        <i 
-                            data-lucide="shield-check"
-                            class="text-red-500 w-20 h-20 mb-4"
-                        ></i>
-                        <span class="font-bold text-2xl">Sécurité Linux</span>
-                        <span class="text-xl">Protégez vos systèmes</span>
-                        <div class="flex gap-3 mt-2 mb-2">
-                            <div class="badge badge-outline badge-xl">18 leçons</div>
-                            <div class="badge badge-outline badge-xl">6h</div>
+                        <i data-lucide="shield-check" class="text-red-500 w-16 h-16 md:w-20 md:h-20 mb-4"></i>
+                        <span class="font-bold text-lg md:text-xl">Sécurité Linux</span>
+                        <span class="text-sm md:text-base">Protégez vos systèmes</span>
+                        <div class="flex gap-3 mt-2 mb-2 flex-wrap">
+                            <div class="badge badge-outline badge-lg md:badge-xl">18 leçons</div>
+                            <div class="badge badge-outline badge-lg md:badge-xl">6h</div>
                         </div>
-                        <button class="btn btn-primary">Commencer</button>
+                        <button class="btn btn-primary w-full">Commencer</button>
                     </article>
                 </div>
             </div>
         </div>
    </section>
 
-   <div class="stats stats-vertical lg:stats-horizontal md:stats-horizontal shadow bg-base-100 lg:flex justify-center md:mx-30 lg:30 md:py-20">
-        
-            <div class="stat place-items-center">
-                <div class="stat-figure text-primary">
-                    <i data-lucide="users" class="w-12 h-12"></i>
-                </div>
-                <div class="stat-title">Utilisateurs Actifs</div>
-                <div class="stat-value text-primary">31K+</div>
-                <div class="stat-desc">En constante croissance</div>
-            </div>
-        
-
+   <!-- Stats -->
+   <div class="stats stats-vertical lg:stats-horizontal shadow bg-base-100 w-full max-w-6xl mx-auto my-8 md:my-12 lg:my-20">
         <div class="stat place-items-center">
-            <div class="stat-figure">
-                <i data-lucide="book" class="w-12 h-12 text-secondary"></i>
+            <div class="stat-figure text-primary">
+                <i data-lucide="users" class="w-10 h-10 md:w-12 md:h-12"></i>
             </div>
-            <div class="stat-title">Cours disponibles</div>
-            <div class="stat-value text-secondary">120+</div>
-            <div class="stat-desc">Nouveaux chaque mois</div>
+            <div class="stat-title text-sm md:text-base">Utilisateurs Actifs</div>
+            <div class="stat-value text-primary text-2xl md:text-4xl">31K+</div>
+            <div class="stat-desc text-xs md:text-sm">En constante croissance</div>
         </div>
 
         <div class="stat place-items-center">
             <div class="stat-figure">
-                <i data-lucide="inbox" class="w-12 h-12 text-yellow-300"></i>
+                <i data-lucide="book" class="w-10 h-10 md:w-12 md:h-12 text-secondary"></i>
             </div>
-            <div class="stat-title">Distributions</div>
-            <div class="stat-value">25+</div>
-            <div class="stat-desc">Toutes documentées</div>
+            <div class="stat-title text-sm md:text-base">Cours disponibles</div>
+            <div class="stat-value text-secondary text-2xl md:text-4xl">120+</div>
+            <div class="stat-desc text-xs md:text-sm">Nouveaux chaque mois</div>
+        </div>
+
+        <div class="stat place-items-center">
+            <div class="stat-figure">
+                <i data-lucide="inbox" class="w-10 h-10 md:w-12 md:h-12 text-yellow-300"></i>
+            </div>
+            <div class="stat-title text-sm md:text-base">Distributions</div>
+            <div class="stat-value text-2xl md:text-4xl">25+</div>
+            <div class="stat-desc text-xs md:text-sm">Toutes documentées</div>
         </div>
     </div>
 
@@ -696,42 +570,40 @@
         
     </section>
 
-    <div class="flex flex-col p-2 mt-10 gap-3">
-        <span class="font-bold text-4xl text-center">
+    <!-- CTA Final -->
+    <div class="flex flex-col p-4 md:p-8 mt-8 md:mt-12 lg:mt-16 gap-3 md:gap-5 max-w-4xl mx-auto text-center">
+        <span class="font-bold text-2xl md:text-3xl lg:text-4xl">
             Prêt à commencer votre aventure Linux ?
         </span>
-        <span class="text-center mt-5 text-xl">
+        <span class="mt-2 md:mt-5 text-base md:text-lg lg:text-xl">
             Rejoignez notre communauté et devenez un expert Linux
         </span>
-        <div class="flex justify-center mt-6 gap-5">
-            <button 
-                class="btn bg-white text-primary text-xl gap-2 btn-xl"
-            > 
+        <div class="flex flex-col md:flex-row justify-center mt-4 md:mt-6 gap-3 md:gap-5">
+            <button class="btn bg-white text-primary text-base md:text-lg lg:text-xl gap-2 w-full md:w-auto"> 
                 <i data-lucide="user-plus"></i>
                 S'inscrire gratuitement
             </button>
-            <button
-                class="btn btn-outline btn-xl"
-            >
+            <button class="btn btn-outline text-base md:text-lg lg:text-xl w-full md:w-auto">
                 <i data-lucide="mail"></i>
                 Newsletter
             </button>
         </div>
-
-        <span class="text-center">Aucune carte bancaire requise • Accès immédiat</span>
-
+        <span class="text-center text-xs md:text-sm">Aucune carte bancaire requise • Accès immédiat</span>
     </div>
 
-    <footer class="bg-base-200 py-15 flex justify-between justify-center items-center">
-        <div class="mx-5">
-            <a href="" class="mr-4 link">A propos</a>
-            <a href="" class="mr-4 link">Contact</a>
-            <a href="" class="mr-4 link">Mentions légales</a>
-            <a href="" class="mr-4 link">Politique de confidentialité</a>
-        </div>
-        <div class="flex flex-col mx-5">
-            <span class="font-bold text-blue-400">RichLabs-votre parcours linux</span>
-            <span>Copyright &copy; 2026 - Tous droits réservés</span>
+    <!-- Footer -->
+    <footer class="bg-base-200 py-8 md:py-12 lg:py-15 px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-4 max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row gap-3 md:gap-4 text-center md:text-left">
+                <a href="" class="link text-sm md:text-base">A propos</a>
+                <a href="" class="link text-sm md:text-base">Contact</a>
+                <a href="" class="link text-sm md:text-base">Mentions légales</a>
+                <a href="" class="link text-sm md:text-base">Politique de confidentialité</a>
+            </div>
+            <div class="flex flex-col text-center md:text-right">
+                <span class="font-bold text-blue-400 text-sm md:text-base">RichLabs - votre parcours linux</span>
+                <span class="text-xs md:text-sm">Copyright &copy; 2026 - Tous droits réservés</span>
+            </div>
         </div>
     </footer>
     <script>

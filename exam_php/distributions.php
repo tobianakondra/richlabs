@@ -12,118 +12,105 @@
 <body>
     <?php include 'header.php'; ?>
 
-    <section class="grid justify-center min-h-screen">
-        <div class="grid justify-center items-center gap-3">
-            <div class="grid gap-3">
-                <span class="text-5xl font-bold">
-                    Explorer les Distributions Linux
+    <!-- Hero Section -->
+    <section class="flex flex-col justify-center items-center min-h-screen px-4 py-8">
+        <div class="flex flex-col items-center gap-4 md:gap-6 max-w-6xl w-full">
+            <span class="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
+                Explorer les Distributions Linux
+            </span>
+            <span class="text-center text-base md:text-lg lg:text-xl">
+                Trouvez la distribution parfaite pour vos besoins
+            </span>
+            
+            <div class="flex items-center gap-2 md:gap-3 mt-4">
+                <i data-lucide="circle-question-mark" class="text-pink-500 w-5 h-5 md:w-6 md:h-6"></i>
+                <span class="font-bold text-sm md:text-base">
+                    Quelle distribution est faite pour vous ?
                 </span>
-                <span class="text-center text-xl">
-                    Trouvez la distribution parfaite pour vos besoins
-                </span>
-                <div class="flex gap-3 mt-4">
-                    <i 
-                        data-lucide="circle-question-mark"
-                        class="text-pink-500"
-                    ></i>
-                    <span class="font-bold">
-                        Quelle distribution est faite pour vous ?
-                    </span>
-                </div>
-                <div class="flex justify-center mt-4 items-center join">
-                    <input 
-                        type="text"
-                        class="input"
-                        placeholder="rechercher une distribution..."
-                    >
-                    <button 
-                        class="btn btn-primary join-item"
-                    >
-                        <i data-lucide="search"></i>
-                    </button>
-                </div>
-
-                <div class="flex justify-center mt-5 gap-5">
-                    <button class="btn btn-outline">
-                        <i data-lucide="funnel"></i>
-                        Niveau
-                    </button>
-                    <button class="btn btn-outline">
-                        <i data-lucide="target"></i>
-                        Usage
-                    </button>
-                    <button class="btn btn-outline">
-                        <i 
-                            data-lucide="package"
-                        ></i>
-                        Gestionnaire
-                    </button>
-                    <button class="btn btn-outline">
-                        <i
-                            data-lucide="laptop-minimal"
-                        ></i>
-                        Bureau
-                    </button>
-                </div>
-
-                <div class="stats stats-vertical lg:stats-horizontal shadow mt-5">
-                    <div class="stat">
-                        <div class="stat-figure text-primary">
-                            <i data-lucide="box"></i>
-                        </div>
-                        <div class="stat-title">Distributions</div>
-                        <div class="stat-value text-primary">+25</div>
-                        <div class="stat-desc">Documentées</div>
-                    </div>
-
-                    <div class="stat">
-                        <div class="stat-figure text-secondary">
-                            <i data-lucide="users"></i>
-                        </div>
-                        <div class="stat-title">utilisateurs</div>
-                        <div class="stat-value text-secondary">50M+</div>
-                        <div class="stat-desc">Dans le monde</div>
-                    </div>
-
-                    <div class="stat">
-                      <div class="stat-figure text-secondary">
-                        <div class="avatar avatar-online">
-                          <div class="w-16 rounded-full">
-                            <img src="face.jpeg"
-                                class=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="stat-value">90%</div>
-                      <div class="stat-title">"users are satisfied"</div>
-                      <div class="stat-desc text-secondary">Richard Founder of Richlabs</div>
-                    </div>
             </div>
             
-            
-        </div>
+            <!-- Search Bar -->
+            <div class="flex justify-center mt-4 items-center join w-full max-w-2xl">
+                <input 
+                    type="text"
+                    class="input join-item flex-1"
+                    placeholder="rechercher une distribution..."
+                >
+                <button class="btn btn-primary join-item">
+                    <i data-lucide="search"></i>
+                </button>
+            </div>
 
+            <!-- Filter Buttons -->
+            <div class="grid grid-cols-2 md:flex justify-center mt-5 gap-2 md:gap-3 w-full max-w-2xl">
+                <button class="btn btn-outline btn-sm md:btn-md">
+                    <i data-lucide="funnel" class="w-4 h-4"></i>
+                    Niveau
+                </button>
+                <button class="btn btn-outline btn-sm md:btn-md">
+                    <i data-lucide="target" class="w-4 h-4"></i>
+                    Usage
+                </button>
+                <button class="btn btn-outline btn-sm md:btn-md">
+                    <i data-lucide="package" class="w-4 h-4"></i>
+                    Gestionnaire
+                </button>
+                <button class="btn btn-outline btn-sm md:btn-md">
+                    <i data-lucide="laptop-minimal" class="w-4 h-4"></i>
+                    Bureau
+                </button>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats stats-vertical lg:stats-horizontal shadow mt-8 w-full max-w-4xl">
+                <div class="stat place-items-center">
+                    <div class="stat-figure text-primary">
+                        <i data-lucide="box" class="w-8 h-8 md:w-10 md:h-10"></i>
+                    </div>
+                    <div class="stat-title text-sm md:text-base">Distributions</div>
+                    <div class="stat-value text-primary text-2xl md:text-4xl">+25</div>
+                    <div class="stat-desc text-xs md:text-sm">Documentées</div>
+                </div>
+
+                <div class="stat place-items-center">
+                    <div class="stat-figure text-secondary">
+                        <i data-lucide="users" class="w-8 h-8 md:w-10 md:h-10"></i>
+                    </div>
+                    <div class="stat-title text-sm md:text-base">utilisateurs</div>
+                    <div class="stat-value text-secondary text-2xl md:text-4xl">50M+</div>
+                    <div class="stat-desc text-xs md:text-sm">Dans le monde</div>
+                </div>
+
+                <div class="stat place-items-center">
+                    <div class="stat-figure text-secondary">
+                        <div class="avatar avatar-online">
+                            <div class="w-12 h-12 md:w-16 md:h-16 rounded-full">
+                                <img src="face.jpeg" alt="Richard" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-value text-2xl md:text-4xl">90%</div>
+                    <div class="stat-title text-xs md:text-sm">"users are satisfied"</div>
+                    <div class="stat-desc text-secondary text-xs">Richard Founder of Richlabs</div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5">
-            <div class="flex items-center gap-2">
-                <i
-                    data-lucide="star"
-                    class="text-green-500 w-12 h-12"
-                ></i>
-                <span class="font-bold text-3xl">
-                    Pour débuter
-                </span>
-            </div>
+    <!-- Pour débuter -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16">
+        <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="star" class="text-green-500 w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Pour débuter</span>
+        </div>
 
-            <div class="mt-5 ml-5">
-                <span class="">
-                    Distributions idéales pour les nouveaux utilisateurs Linux
-                </span>
-            </div>
+        <div class="mb-6 md:mb-8">
+            <span class="text-sm md:text-base">
+                Distributions idéales pour les nouveaux utilisateurs Linux
+            </span>
+        </div>
 
-            <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
                 <div class="card bg-base-200 p-6 gap-3">
                     <img 
                         src="https://cdn.simpleicons.org/ubuntu/E95420" 
@@ -237,22 +224,20 @@
             </article>
     </section>  
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-200">
-        <div class="flex items-center gap-2">
-            <i
-                data-lucide="code"
-                class="text-primary w-12 h-12"
-            ></i>
-            <span class="font-bold text-3xl">
-                Pour les développeurs
+    <!-- Pour les développeurs -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16 bg-base-200">
+        <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="code" class="text-primary w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Pour les développeurs</span>
+        </div>
+
+        <div class="mb-6 md:mb-8">
+            <span class="text-sm md:text-base">
+                Distributions optimisées pour le développement logiciel
             </span>
         </div>
 
-        <div>
-            Distributions optimisées pour le développement logiciel
-        </div>
-
-        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             <div class="card bg-base-100 p-6 gap-3">
                 <img 
                     src="https://cdn.simpleicons.org/fedora/51A2DA" 
@@ -367,21 +352,20 @@
         </article>
     </section>
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-100">
-        <div class="flex items-center gap-2">
-            <i
-                data-lucide="shield"
-                class="text-red-500 w-12 h-12"
-            ></i>
-            <span class="font-bold text-3xl">
-                Pour la sécurité
+    <!-- Pour la sécurité -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16 bg-base-100">
+        <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="shield" class="text-red-500 w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Pour la sécurité</span>
+        </div>
+        
+        <div class="mb-6 md:mb-8">
+            <span class="text-sm md:text-base">
+                Distributions spécialisées en cybersécurité et tests de pénétration
             </span>
         </div>
-        </div class="mt-4 ml-5">
-                Distributions spécialisées en cybersécurité et tests de pénétration
-        <div>
 
-        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2 transistion-all">
                 <img 
                     src="https://cdn.simpleicons.org/kalilinux/557C94" 
@@ -460,21 +444,20 @@
             
     </section>
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-200">
-         <div class="flex items-center gap-2">
-            <i
-                data-lucide="search"
-                class="text-blue-500 w-12 h-12"
-            ></i>
-            <span class="font-bold text-3xl">
-                Pour l'OSINT
+    <!-- Pour l'OSINT -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16 bg-base-200">
+        <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="search" class="text-blue-500 w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Pour l'OSINT</span>
+        </div>
+        
+        <div class="mb-6 md:mb-8">
+            <span class="text-sm md:text-base">
+                Distributions spécialisées en renseignement open source et investigation
             </span>
         </div>
-        </div class="mt-4 ml-5">
-                Distributions spécialisées en renseignement open source et investigation
-        <div>
 
-        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             <div class="card bg-base-100 p-6 gap-3 hover:-translate-y-2">
                 <img 
                     src="csi.png" 
@@ -551,21 +534,20 @@
         </article>
     </section>
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-100">
-        <div class="flex items-center gap-2">
-            <i
-                data-lucide="gamepad-2"
-                class="text-green-500 w-12 h-12"
-            ></i>
-            <span class="font-bold text-3xl">
-                Pour le gaming
+    <!-- Pour le gaming -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16 bg-base-100">
+        <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="gamepad-2" class="text-green-500 w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Pour le gaming</span>
+        </div>
+        
+        <div class="mb-6 md:mb-8">
+            <span class="text-sm md:text-base">
+                Distributions optimisées pour les jeux vidéo avec support GPU avancé.
             </span>
         </div>
-        </div class="mt-4 ml-5">
-            Distributions optimisées pour les jeux vidéo avec support GPU avancé.
-        <div>
         
-        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2">
                 <img 
                     src="https://cdn.simpleicons.org/popos/48B9C7" 
@@ -679,21 +661,20 @@
         </article>
     </section>
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-200">
-        <div class="flex items-center gap-2">
-            <i
-                data-lucide="shield-check"
-                class="text-success w-12 h-12"
-            ></i>
-            <span class="font-bold text-3xl">
-                Pour la sécurité défensive
-            </span>
-        </div>
-        <div class="mt-4 ml-5">
-            Distributions pour la défense, le monitoring et l'analyse de sécurité.
+    <!-- Pour la sécurité défensive -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16 bg-base-200">
+        <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="shield-check" class="text-success w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Pour la sécurité défensive</span>
         </div>
         
-        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 py-5 lg:px-15 lg:py-10 gap-3">
+        <div class="mb-6 md:mb-8">
+            <span class="text-sm md:text-base">
+                Distributions pour la défense, le monitoring et l'analyse de sécurité.
+            </span>
+        </div>
+        
+        <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             <div class="card bg-base-100 p-6 gap-3 shadow-xl hover:shadow-2xl hover:-translate-y-2">
                 <img 
                     src="logo-so-onion-light.svg" 
@@ -770,332 +751,277 @@
         </article>
     </section>
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5">
-            <div class="flex items-center gap-2">
-                <i
-                    data-lucide="clock-3"
-                    class="text-primary w-12 h-12"
-                ></i>
-                <span class="font-bold text-3xl">
-                    Histoire des distributions
-                </span>
-            </div>
-            <div class="mt-5">
+    <!-- Histoire des distributions -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16">
+        <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="clock-3" class="text-primary w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Histoire des distributions</span>
+        </div>
+        
+        <div class="mb-6 md:mb-8">
+            <span class="text-sm md:text-base">
                 L'évolution de l'écosystème Linux à travers le temps
-            </div>
+            </span>
+        </div>
 
-            <div class="mt-5">
+        <div class="max-w-4xl mx-auto">
                 <ul class="timeline timeline-vertical">
                     <li>
                         <div class="timeline-start timeline-box">
-                            <div class="text-sm">
-                                <span class="font-bold text-xl">
+                            <div class="text-xs md:text-sm">
+                                <span class="font-bold text-base md:text-xl">
                                     1993 - Debian <br>
                                 </span>
                                 Ian Murdock crée Debian, l'une des plus anciennes distributions encore actives.
-                                
+                            </div>
                         </div>
-                        </div>
-                        <div class="timeline-middle rounded-full bg-primary w-7 h-7 flex justify-center">
-                            
-                        </div>
-                        <hr 
-                            class="bg-primary"
-                        />
+                        <div class="timeline-middle rounded-full bg-primary w-6 h-6 md:w-7 md:h-7 flex justify-center"></div>
+                        <hr class="bg-primary" />
                     </li>
+                    
                     <li>
-                        <hr 
-                            class="bg-primary"
-                        />
-                        <div class="timeline-middle rounded-full bg-primary w-7 h-7 flex justify-center">
-
-                        </div>
+                        <hr class="bg-primary" />
+                        <div class="timeline-middle rounded-full bg-primary w-6 h-6 md:w-7 md:h-7 flex justify-center"></div>
                         <div class="timeline-end timeline-box">
-                            <div class="text-sm">
-                                <span class="font-bold text-xl">
+                            <div class="text-xs md:text-sm">
+                                <span class="font-bold text-base md:text-xl">
                                     2002 - Arch Linux <br>
                                 </span>
                                 Judd Vinet lance Arch Linux, basée sur le principe KISS (Keep It Simple, Stupid).
                             </div>
                         </div>
-                        <hr 
-                            class="bg-primary"
-                        />
+                        <hr class="bg-primary" />
                     </li>
+                    
                     <li>
-                        <hr 
-                            class="bg-primary"
-                        />
+                        <hr class="bg-primary" />
                         <div class="timeline-start timeline-box">
-                            <div class="text-sm">
-                                <span class="text-xl font-bold">
+                            <div class="text-xs md:text-sm">
+                                <span class="text-base md:text-xl font-bold">
                                     2004 - Ubuntu <br>
                                 </span>
                                 Mark Shuttleworth fonde Ubuntu, rendant Linux accessible au grand public.
                             </div>
                         </div>
-
-                        <div class="timeline-middle rounded-full bg-primary w-7 h-7">
-
-                        </div>
-                        <hr 
-                            class="bg-primary"
-                        />
+                        <div class="timeline-middle rounded-full bg-primary w-6 h-6 md:w-7 md:h-7"></div>
+                        <hr class="bg-primary" />
                     </li>
+                    
                     <li>
-                        <hr
-                            class="bg-primary"
-                        />
+                        <hr class="bg-primary" />
                         <div class="timeline-end timeline-box">
-                            <div class="">
-                                <span class="text-xl font-bold">
+                            <div>
+                                <span class="text-base md:text-xl font-bold">
                                     2006 - Linux Mint <br>
                                 </span> 
-                                <span class="text-sm">
-                                     Création de Linux Mint, basée sur Ubuntu avec une interface plus traditionnelle.
+                                <span class="text-xs md:text-sm">
+                                    Création de Linux Mint, basée sur Ubuntu avec une interface plus traditionnelle.
                                 </span>
                             </div>
                         </div>
-                        <div class="timeline-middle rounded-full w-7 h-7 bg-primary"></div>
-                        <hr 
-                            class="bg-primary"
-                        />
+                        <div class="timeline-middle rounded-full w-6 h-6 md:w-7 md:h-7 bg-primary"></div>
+                        <hr class="bg-primary" />
                     </li>
+                    
                     <li>
-                        <hr 
-                            class="bg-primary"
-                        />
+                        <hr class="bg-primary" />
                         <div class="timeline-start timeline-box">
-                            <div class="text-sm">
-                                <span class="text-xl font-bold">
+                            <div class="text-xs md:text-sm">
+                                <span class="text-base md:text-xl font-bold">
                                     2013 - Kali Linux <br>
                                 </span>
                                 Offensive Security lance Kali Linux, successeur de BackTrack pour la sécurité.
                             </div>
                         </div>
-
-                        <div class="timeline-middle rounded-full bg-primary w-7 h-7">
-
-                        </div>
-                        <hr 
-                            class="bg-primary"
-                        />
+                        <div class="timeline-middle rounded-full bg-primary w-6 h-6 md:w-7 md:h-7"></div>
+                        <hr class="bg-primary" />
                     </li>
+                    
                     <li>
-                        <hr
-                            class="bg-primary"
-                        />
+                        <hr class="bg-primary" />
                         <div class="timeline-end timeline-box">
-                            <div class="">
-                                <span class="text-xl font-bold">
+                            <div>
+                                <span class="text-base md:text-xl font-bold">
                                     2017 - Pop!_OS <br>
                                 </span> 
-                                <span class="text-sm">
+                                <span class="text-xs md:text-sm">
                                     System76 développe Pop!_OS, optimisée pour les créateurs et développeurs.
                                 </span>
                             </div>
                         </div>
-                        <div class="timeline-middle rounded-full w-7 h-7 bg-primary"></div>
+                        <div class="timeline-middle rounded-full w-6 h-6 md:w-7 md:h-7 bg-primary"></div>
                     </li>
                 </ul>
             </div>
     </section>
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-200 mt-6">
-        <div class="flex items-center gap-2">
-            <i
-                data-lucide="git-branch"
-                class="text-primary w-12 h-12"
-            ></i>
-            <span class="font-bold text-3xl">
-               Arbre généalogique
+    <!-- Arbre généalogique -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16 bg-base-200">
+        <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="git-branch" class="text-primary w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Arbre généalogique</span>
+        </div>
+        
+        <div class="mb-6 md:mb-8">
+            <span class="text-sm md:text-base">
+                Les relations entre les principales distributions Linux
             </span>
         </div>
-        <div class="mt-4 ml-5">
-            Les relations entre les principales distributions Linux
-        </div>
 
-        <div class="bg-base-100 card p-4 mt-5">
-            <div class="flex justify-between">
-                <div class="">
-                    <div class="flex items-center">
+        <div class="bg-base-100 card p-4 md:p-6 lg:p-8">
+            <div class="flex flex-col lg:flex-row justify-between gap-8 lg:gap-12">
+                <!-- Debian Family -->
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-4">
                         <img 
                             src="https://cdn.simpleicons.org/debian/A81D33" 
                             alt="debian-logo"
-                            class="w-12 h-12"
+                            class="w-10 h-10 md:w-12 md:h-12"
                         >
-                        <span class="text-xl font-bold">
-                            Debian
-                        </span>
+                        <span class="text-lg md:text-xl font-bold">Debian</span>
                     </div>
-                    <div class="flex ml-15 gap-1 mt-3">
-                        <i
-                            data-lucide="corner-down-right"
-                            class="text-primary"
-                        ></i>
+                    
+                    <div class="flex items-center gap-2 ml-4 md:ml-6 mt-3">
+                        <i data-lucide="corner-down-right" class="text-primary w-4 h-4 md:w-5 md:h-5"></i>
                         <div class="flex items-center gap-2">
                             <img 
                                 src="https://cdn.simpleicons.org/ubuntu/E95420" 
-                                alt=""
-                                class="w-5 h-5"
+                                alt="ubuntu"
+                                class="w-4 h-4 md:w-5 md:h-5"
                             >
-                            <span>Ubuntu</span>
+                            <span class="text-sm md:text-base">Ubuntu</span>
                         </div>
                     </div>
-                    <div class="flex ml-25 gap-1 mt-3">
-                        <i
-                            data-lucide="corner-down-right"
-                            class="text-purple-400"
-                        ></i>
+                    
+                    <div class="flex items-center gap-2 ml-8 md:ml-12 mt-3">
+                        <i data-lucide="corner-down-right" class="text-purple-400 w-4 h-4 md:w-5 md:h-5"></i>
                         <div class="flex items-center gap-2">
                             <img 
                                 src="https://cdn.simpleicons.org/linuxmint/87CF3E" 
-                                alt=""
-                                class="w-5 h-5"
+                                alt="mint"
+                                class="w-4 h-4 md:w-5 md:h-5"
                             >
-                            <span>Linux Mint</span>
+                            <span class="text-sm md:text-base">Linux Mint</span>
                         </div>
                     </div>
-                    <div class="flex ml-25 gap-1 mt-3">
-                        <i
-                            data-lucide="corner-down-right"
-                            class="text-purple-400"
-                        ></i>
+                    
+                    <div class="flex items-center gap-2 ml-8 md:ml-12 mt-3">
+                        <i data-lucide="corner-down-right" class="text-purple-400 w-4 h-4 md:w-5 md:h-5"></i>
                         <div class="flex items-center gap-2">
                             <img 
                                 src="https://cdn.simpleicons.org/popos/48B9C7" 
-                                alt=""
-                                class="w-5 h-5"
+                                alt="popos"
+                                class="w-4 h-4 md:w-5 md:h-5"
                             >
-                            <span>Pop!_OS</span>
+                            <span class="text-sm md:text-base">Pop!_OS</span>
                         </div>
                     </div>
-                    <div class="flex ml-25 gap-1 mt-3">
-                        <i
-                            data-lucide="corner-down-right"
-                            class="text-purple-400"
-                        ></i>
+                    
+                    <div class="flex items-center gap-2 ml-8 md:ml-12 mt-3">
+                        <i data-lucide="corner-down-right" class="text-purple-400 w-4 h-4 md:w-5 md:h-5"></i>
                         <div class="flex items-center gap-2">
                             <img 
                                 src="https://cdn.simpleicons.org/elementary/64BAFF" 
-                                alt=""
-                                class="w-5 h-5"
+                                alt="elementary"
+                                class="w-4 h-4 md:w-5 md:h-5"
                             >
-                            <span>Elementary OS</span>
+                            <span class="text-sm md:text-base">Elementary OS</span>
                         </div>
                     </div>
-                    <div class="flex ml-15 gap-1 mt-3">
-                        <i
-                            data-lucide="corner-down-right"
-                            class="text-primary"
-                        ></i>
+                    
+                    <div class="flex items-center gap-2 ml-4 md:ml-6 mt-3">
+                        <i data-lucide="corner-down-right" class="text-primary w-4 h-4 md:w-5 md:h-5"></i>
                         <div class="flex items-center gap-2">
                             <img 
                                 src="https://cdn.simpleicons.org/kalilinux/557C94" 
-                                alt=""
-                                class="w-6 h-6"
+                                alt="kali"
+                                class="w-5 h-5 md:w-6 md:h-6"
                             >
-                            <span>Kali Linux</span>
+                            <span class="text-sm md:text-base">Kali Linux</span>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <div>
-                        <div class="flex items-center">
-                           <img 
-                                src="https://cdn.simpleicons.org/redhat/EE0000" alt=""
-                                class="w-10 h-10"
+                <!-- Red Hat Family -->
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-4">
+                        <img 
+                            src="https://cdn.simpleicons.org/redhat/EE0000" 
+                            alt="redhat"
+                            class="w-8 h-8 md:w-10 md:h-10"
+                        >
+                        <span class="text-lg md:text-xl font-bold">Red Hat</span>
+                    </div>
+                    
+                    <div class="flex items-center gap-2 ml-4 md:ml-6 mt-3">
+                        <i data-lucide="corner-down-right" class="text-primary w-4 h-4 md:w-5 md:h-5"></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/fedora/51A2DA" 
+                                alt="fedora"
+                                class="w-4 h-4 md:w-5 md:h-5"
                             >
-                            <span class="text-xl font-bold">
-                                Red Hat
-                            </span>
+                            <span class="text-sm md:text-base">Fedora</span>
                         </div>
-                        <div class="flex ml-15 gap-1 mt-3">
-                            <i
-                                data-lucide="corner-down-right"
-                                class="text-primary"
-                            ></i>
-                            <div class="flex items-center gap-2">
-                                <img 
-                                    src="https://cdn.simpleicons.org/fedora/51A2DA" 
-                                    alt=""
-                                    class="w-5 h-5"
-                                >
-                                <span>Fedora</span>
-                            </div>
+                    </div>
+                    
+                    <div class="flex items-center gap-2 ml-4 md:ml-6 mt-3">
+                        <i data-lucide="corner-down-right" class="text-primary w-4 h-4 md:w-5 md:h-5"></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/centos/262577" 
+                                alt="centos"
+                                class="w-4 h-4 md:w-5 md:h-5"
+                            >
+                            <span class="text-sm md:text-base">CentOS</span>
                         </div>
-                        <div class="flex ml-15 gap-1 mt-3">
-                            <i
-                                data-lucide="corner-down-right"
-                                class="text-primary"
-                            ></i>
-                            <div class="flex items-center gap-2">
-                                <img 
-                                    src="https://cdn.simpleicons.org/centos/262577" 
-                                    alt=""
-                                    class="w-5 h-5"
-                                >
-                                <span>CentOS</span>
-                            </div>
-                        </div>
+                    </div>
 
-                        <div class="flex ml-15 gap-1 mt-3">
-                            <i
-                                data-lucide="corner-down-right"
-                                class="text-primary"
-                            ></i>
-                            <div class="flex items-center gap-2">
-                                <img 
-                                    src="https://cdn.simpleicons.org/rockylinux/10B981" 
-                                    alt=""
-                                    class="w-5 h-5"
-                                >
-                                <span>Rocky Linux</span>
-                            </div>
+                    <div class="flex items-center gap-2 ml-4 md:ml-6 mt-3">
+                        <i data-lucide="corner-down-right" class="text-primary w-4 h-4 md:w-5 md:h-5"></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/rockylinux/10B981" 
+                                alt="rocky"
+                                class="w-4 h-4 md:w-5 md:h-5"
+                            >
+                            <span class="text-sm md:text-base">Rocky Linux</span>
                         </div>
-
                     </div>
                 </div>
 
-                <div>
-                    <div>
-                        <div class="flex items-center">
-                           <img 
-                                src="https://cdn.simpleicons.org/archlinux/1793D1" alt=""
-                                class="w-10 h-10"
+                <!-- Arch Family -->
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-4">
+                        <img 
+                            src="https://cdn.simpleicons.org/archlinux/1793D1" 
+                            alt="arch"
+                            class="w-8 h-8 md:w-10 md:h-10"
+                        >
+                        <span class="text-lg md:text-xl font-bold">Arch Linux</span>
+                    </div>
+                    
+                    <div class="flex items-center gap-2 ml-4 md:ml-6 mt-3">
+                        <i data-lucide="corner-down-right" class="text-primary w-4 h-4 md:w-5 md:h-5"></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/manjaro/35BF5C" 
+                                alt="manjaro"
+                                class="w-4 h-4 md:w-5 md:h-5"
                             >
-                            <span class="text-xl font-bold">
-                                Arch Linux
-                            </span>
+                            <span class="text-sm md:text-base">Manjaro</span>
                         </div>
-                        <div class="flex ml-15 gap-1 mt-3">
-                            <i
-                                data-lucide="corner-down-right"
-                                class="text-primary"
-                            ></i>
-                            <div class="flex items-center gap-2">
-                                <img 
-                                    src="https://cdn.simpleicons.org/manjaro/35BF5C" 
-                                    alt=""
-                                    class="w-5 h-5"
-                                >
-                                <span>Manjaro</span>
-                            </div>
-                        </div>
-                        <div class="flex ml-15 gap-1 mt-3">
-                            <i
-                                data-lucide="corner-down-right"
-                                class="text-primary"
-                            ></i>
-                            <div class="flex items-center gap-2">
-                                <img 
-                                    src="https://cdn.simpleicons.org/endeavouros/7F7FFF" 
-                                    alt=""
-                                    class="w-5 h-5"
-                                >
-                                <span>Andeavour OS</span>
-                            </div>
+                    </div>
+                    
+                    <div class="flex items-center gap-2 ml-4 md:ml-6 mt-3">
+                        <i data-lucide="corner-down-right" class="text-primary w-4 h-4 md:w-5 md:h-5"></i>
+                        <div class="flex items-center gap-2">
+                            <img 
+                                src="https://cdn.simpleicons.org/endeavouros/7F7FFF" 
+                                alt="endeavour"
+                                class="w-4 h-4 md:w-5 md:h-5"
+                            >
+                            <span class="text-sm md:text-base">Endeavour OS</span>
                         </div>
                     </div>
                 </div>
@@ -1103,226 +1029,131 @@
         </div>
     </section>
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-100 mt-5">
-        <div class="flex items-center gap-2">
-            <i
-                data-lucide="chart-no-axes-column-increasing"
-                class="text-primary w-12 h-12"
-            ></i>
-            <span class="font-bold text-3xl">
-               Statistiques et popularité
-            </span>
+    <!-- Statistiques et popularité -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16 bg-base-100">
+        <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="chart-no-axes-column-increasing" class="text-primary w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Statistiques et popularité</span>
         </div>
-        <div class="">
-            <div>
+        
+        <div class="mb-6 md:mb-8">
+            <span class="text-sm md:text-base">
                 Les distributions les plus utilisées en 2026
-                <div class="grid grid-cols-1 md:flex lg:flex md:justify-center md:gap-4 lg:justify-center lg:gap-4">
-                    <div>
-                        <div class="card mt-5 bg-base-200 p-6 gap-5 lg:w-130">
-                            <span class="font-bold">Top 10 des distributions</span>
-                            <div class="flex flex-col gap-2">
-                                <div class="flex justify-between">
-                                    <span class="font-bold text-sm">
-                                        Ubuntu
-                                    </span>
-                                    <span class="font-bold text-sm">35%</span>
-                                </div>
-                                <div class="flex items-center gap-1"> 
-                                    <progress 
-                                        class="progress progress-primary w-65 lg:w-120"
-                                        value="35" max="100"
-                                    ></progress>
-                                </div>
-                            </div>
+            </span>
+        </div>
 
-                            <div class="flex flex-col gap-2">
-                                <div class="flex justify-between">
-                                    <span class="font-bold text-sm">
-                                        Debian
-                                    </span>
-                                    <span class="font-bold text-sm">18%</span>
-                                </div>
-                                <div class="flex items-center gap-1"> 
-                                    <progress 
-                                        class="progress progress-secondary w-65 lg:w-120"
-                                        value="18" max="100"
-                                    ></progress>
-                                </div>
-                            </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 max-w-6xl mx-auto">
+            <!-- Top 10 -->
+            <div class="card bg-base-200 p-4 md:p-6 gap-4 md:gap-5">
+                <span class="font-bold text-lg md:text-xl">Top 10 des distributions</span>
+                
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <span class="font-bold text-xs md:text-sm">Ubuntu</span>
+                        <span class="font-bold text-xs md:text-sm">35%</span>
+                    </div>
+                    <progress class="progress progress-primary w-full" value="35" max="100"></progress>
+                </div>
 
-                            <div class="flex flex-col gap-2">
-                                <div class="flex justify-between">
-                                    <span class="font-bold text-sm">
-                                        Fedora
-                                    </span>
-                                    <span class="font-bold text-sm">12%</span>
-                                </div>
-                                <div class="flex items-center gap-1"> 
-                                    <progress 
-                                        class="progress progress-warning w-65 lg:w-120"
-                                        value="12" max="100"
-                                    ></progress>
-                                </div>
-                            </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <span class="font-bold text-xs md:text-sm">Debian</span>
+                        <span class="font-bold text-xs md:text-sm">18%</span>
+                    </div>
+                    <progress class="progress progress-secondary w-full" value="18" max="100"></progress>
+                </div>
 
-                            <div class="flex flex-col gap-2">
-                                <div class="flex justify-between">
-                                    <span class="font-bold text-sm">
-                                        Arch Linux
-                                    </span>
-                                    <span class="font-bold text-sm">10%</span>
-                                </div>
-                                <div class="flex items-center gap-1"> 
-                                    <progress 
-                                        class="progress progress-info w-65 lg:w-120"
-                                        value="10" max="100"
-                                    ></progress>
-                                </div>
-                            </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <span class="font-bold text-xs md:text-sm">Fedora</span>
+                        <span class="font-bold text-xs md:text-sm">12%</span>
+                    </div>
+                    <progress class="progress progress-warning w-full" value="12" max="100"></progress>
+                </div>
 
-                            <div class="flex flex-col gap-2">
-                                <div class="flex justify-between">
-                                    <span class="font-bold text-sm">
-                                        Linux Mint
-                                    </span>
-                                    <span class="font-bold text-sm">8%</span>
-                                </div>
-                                <div class="flex items-center gap-1"> 
-                                    <progress 
-                                        class="progress progress-success w-65 lg:w-120"
-                                        value="8" max="100"
-                                    ></progress>
-                                </div>
-                            </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <span class="font-bold text-xs md:text-sm">Arch Linux</span>
+                        <span class="font-bold text-xs md:text-sm">10%</span>
+                    </div>
+                    <progress class="progress progress-info w-full" value="10" max="100"></progress>
+                </div>
 
-                            <div class="flex flex-col gap-2">
-                                <div class="flex justify-between">
-                                    <span class="font-bold text-sm">
-                                        Manjaro
-                                    </span>
-                                    <span class="font-bold text-sm">6%</span>
-                                </div>
-                                <div class="flex items-center gap-1"> 
-                                    <progress 
-                                        class="progress progress-error w-65 lg:w-120"
-                                        value="6" max="100"
-                                    ></progress>
-                                </div>
-                            </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <span class="font-bold text-xs md:text-sm">Linux Mint</span>
+                        <span class="font-bold text-xs md:text-sm">8%</span>
+                    </div>
+                    <progress class="progress progress-success w-full" value="8" max="100"></progress>
+                </div>
 
-                            <div class="flex flex-col gap-2">
-                                <div class="flex justify-between">
-                                    <span class="font-bold text-sm">
-                                        Autres
-                                    </span>
-                                    <span class="font-bold text-sm">11%</span>
-                                </div>
-                                <div class="flex items-center gap-1"> 
-                                    <progress 
-                                        class="progress progress-neutral w-65 lg:w-120"
-                                        value="11" max="100"
-                                    ></progress>
-                                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <span class="font-bold text-xs md:text-sm">Manjaro</span>
+                        <span class="font-bold text-xs md:text-sm">6%</span>
+                    </div>
+                    <progress class="progress progress-error w-full" value="6" max="100"></progress>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <span class="font-bold text-xs md:text-sm">Autres</span>
+                        <span class="font-bold text-xs md:text-sm">11%</span>
+                    </div>
+                    <progress class="progress progress-neutral w-full" value="11" max="100"></progress>
+                </div>
+            </div>
+
+            <!-- Utilisation par secteurs -->
+            <div class="card bg-base-200 p-4 md:p-6 gap-4 md:gap-5">
+                <span class="font-bold text-lg md:text-xl">Utilisation par secteurs</span>
+                
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-col gap-2">
+                        <div class="flex gap-2 justify-between items-center">
+                            <div class="flex gap-2 items-center">
+                                <i data-lucide="server" class="text-primary w-4 h-4 md:w-5 md:h-5"></i>
+                                <span class="font-bold text-xs md:text-sm">Server</span>
                             </div>
+                            <span class="font-bold text-xs md:text-sm">78%</span>
                         </div>
+                        <progress class="progress progress-primary w-full" value="78" max="100"></progress>
                     </div>
 
-                    <div class="card mt-5 bg-base-200 p-6 gap-3 lg:w-130">
-                        <span class="font-bold">Utilisation par secteurs</span>
-                        <div class="flex flex-col gap-2">
-                            
-                                <div>
-                                    <div class="flex flex-col gap-2">
-                                        <div class="">
-                                            <div class="flex gap-2 justify-between">
-                                                <div class="flex gap-2">
-                                                    <i
-                                                        data-lucide="server"
-                                                        class="text-primary"
-                                                    ></i>
-                                                    <span class="font-bold">
-                                                            Server
-                                                    </span>
-                                                </div>
-                                                <span class="font-bold flex">
-                                                    78%
-                                                </span>
-                                                
-                                            </div>
-                                        </div>
-                                        <progress 
-                                            class="progress progress-primary w-65 lg:w-120"
-                                            value="78" max="100"
-                                        ></progress>
-                                    </div>
-
-                                    <div class="flex flex-col gap-2 mt-4">
-                                        <div class="">
-                                            <div class="flex gap-2 justify-between">
-                                                <div class="flex gap-2">
-                                                    <i
-                                                        data-lucide="cloud"
-                                                        class="text-secondary"
-                                                    ></i>
-                                                    <span class="font-bold">
-                                                            Cloud
-                                                    </span>
-                                                </div>
-                                                <span class="font-bold flex">
-                                                    92%
-                                                </span>
-                                                
-                                            </div>
-                                        </div>
-                                        <progress 
-                                            class="progress progress-secondary w-65 lg:w-120"
-                                            value="92" max="100"
-                                        ></progress>
-                                    </div>
-
-                                    <div class="flex flex-col gap-2 mt-4">
-                                        <div class="">
-                                            <div class="flex gap-2 justify-between">
-                                                <div class="flex gap-2">
-                                                    <i
-                                                        data-lucide="laptop-minimal"
-                                                        class="text-warning"
-                                                    ></i>
-                                                    <span class="font-bold">
-                                                            Desktop
-                                                    </span>
-                                                </div>
-                                                <span class="font-bold flex">
-                                                    3%
-                                                </span>
-                                                
-                                            </div>
-                                        </div>
-                                        <progress 
-                                            class="progress progress-warning w-65 lg:w-120"
-                                            value="3" max="100"
-                                        ></progress>
-                                    </div>
-                                </div>
-                            
+                    <div class="flex flex-col gap-2">
+                        <div class="flex gap-2 justify-between items-center">
+                            <div class="flex gap-2 items-center">
+                                <i data-lucide="cloud" class="text-secondary w-4 h-4 md:w-5 md:h-5"></i>
+                                <span class="font-bold text-xs md:text-sm">Cloud</span>
+                            </div>
+                            <span class="font-bold text-xs md:text-sm">92%</span>
                         </div>
+                        <progress class="progress progress-secondary w-full" value="92" max="100"></progress>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <div class="flex gap-2 justify-between items-center">
+                            <div class="flex gap-2 items-center">
+                                <i data-lucide="laptop-minimal" class="text-warning w-4 h-4 md:w-5 md:h-5"></i>
+                                <span class="font-bold text-xs md:text-sm">Desktop</span>
+                            </div>
+                            <span class="font-bold text-xs md:text-sm">3%</span>
+                        </div>
+                        <progress class="progress progress-warning w-full" value="3" max="100"></progress>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="lg:px-65 p-10 md:p-10 gap-5 bg-base-200 mt-5">
-         <div class="flex items-center gap-2">
-            <i
-                data-lucide="circle-question-mark"
-                class="text-primary w-12 h-12"
-            ></i>
-            <span class="font-bold text-3xl">
-               Questions fréquentes
-            </span>
+    <!-- Questions fréquentes -->
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16 bg-base-200">
+        <div class="flex items-center gap-2 mb-6 md:mb-8">
+            <i data-lucide="circle-question-mark" class="text-primary w-10 h-10 md:w-12 md:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Questions fréquentes</span>
         </div>
 
-        <div class="collapse collapse-plus bg-base-100 border border-base-300 mt-4">
+        <div class="max-w-4xl mx-auto space-y-3">
             <input 
                 type="radio"
                 name="my-accordion-3"

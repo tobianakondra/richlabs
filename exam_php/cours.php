@@ -13,12 +13,12 @@
     <?php include 'header.php'; ?>
 
     <!-- Hero Section -->
-    <section class="min-h-screen flex flex-col justify-center items-center gap-5 px-4">
+    <section class="min-h-screen flex flex-col justify-center items-center gap-5 px-4 md:px-8 lg:px-16">
         <div class="flex items-center gap-3">
-            <i data-lucide="graduation-cap" class="text-pink-500 w-15 h-15"></i>
-            <span class="text-5xl font-bold text-center">Apprenez Linux</span>
+            <i data-lucide="graduation-cap" class="text-pink-500 w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16"></i>
+            <span class="text-3xl md:text-4xl lg:text-5xl font-bold text-center">Apprenez Linux</span>
         </div>
-        <span class="text-2xl text-center">Votre parcours d'apprentissage personnalisé</span>
+        <span class="text-lg md:text-xl lg:text-2xl text-center">Votre parcours d'apprentissage personnalisé</span>
 
         <!-- Stats personnelles -->
         <div class="stats stats-vertical lg:stats-horizontal shadow-xl mt-5">
@@ -92,10 +92,10 @@
     </section>
 
     <!-- Continuer où vous en étiez -->
-    <section class="lg:px-65 px-4 py-10 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-8 md:py-10 lg:py-12 bg-base-200">
         <div class="flex items-center gap-2 mb-5">
-            <i data-lucide="play-circle" class="text-primary w-12 h-12"></i>
-            <span class="font-bold text-3xl">Continuer où vous en étiez</span>
+            <i data-lucide="play-circle" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Continuer où vous en étiez</span>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -156,12 +156,12 @@
     </section>
 
     <!-- Roadmap d'apprentissage -->
-    <section class="lg:px-65 px-4 py-20">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div class="flex items-center gap-2 mb-5">
-            <i data-lucide="map" class="text-pink-500 w-12 h-12"></i>
-            <span class="font-bold text-3xl">Votre parcours d'apprentissage</span>
+            <i data-lucide="map" class="text-pink-500 w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Votre parcours d'apprentissage</span>
         </div>
-        <span class="text-lg ml-2">Suivez ce parcours structuré pour devenir un expert Linux</span>
+        <span class="text-base md:text-lg ml-2">Suivez ce parcours structuré pour devenir un expert Linux</span>
 
         <div class="mt-10">
             <ul class="timeline timeline-vertical">
@@ -275,12 +275,12 @@
     </section>
 
     <!-- Parcours recommandés -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
         <div class="flex items-center gap-2 mb-5">
-            <i data-lucide="route" class="text-primary w-12 h-12"></i>
-            <span class="font-bold text-3xl">Parcours recommandés</span>
+            <i data-lucide="route" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Parcours recommandés</span>
         </div>
-        <span class="text-lg ml-2">Choisissez un parcours adapté à vos objectifs</span>
+        <span class="text-base md:text-lg ml-2">Choisissez un parcours adapté à vos objectifs</span>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
             <div class="card bg-base-100 p-6 gap-3 hover:shadow-xl transition-all">
@@ -407,17 +407,17 @@
 
 
     <!-- Tous les cours disponibles -->
-    <section class="lg:px-65 px-4 py-20">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div class="flex items-center gap-2 mb-5">
-            <i data-lucide="library" class="text-pink-500 w-12 h-12"></i>
-            <span class="font-bold text-3xl">Tous les cours</span>
+            <i data-lucide="library" class="text-pink-500 w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Tous les cours</span>
         </div>
 
         <!-- Niveau Débutant -->
         <div class="mt-10">
             <div class="flex items-center gap-2 mb-5">
-                <i data-lucide="star" class="text-green-500 w-10 h-10"></i>
-                <span class="font-bold text-2xl">Niveau Débutant</span>
+                <i data-lucide="star" class="text-green-500 w-8 h-8 md:w-9 md:h-9 lg:w-10 lg:h-10"></i>
+                <span class="font-bold text-xl md:text-2xl">Niveau Débutant</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -613,8 +613,8 @@
         <!-- Niveau Intermédiaire -->
         <div class="mt-20">
             <div class="flex items-center gap-2 mb-5">
-                <i data-lucide="zap" class="text-warning w-10 h-10"></i>
-                <span class="font-bold text-2xl">Niveau Intermédiaire</span>
+                <i data-lucide="zap" class="text-warning w-8 h-8 md:w-9 md:h-9 lg:w-10 lg:h-10"></i>
+                <span class="font-bold text-xl md:text-2xl">Niveau Intermédiaire</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -810,8 +810,8 @@
         <!-- Niveau Avancé -->
         <div class="mt-20">
             <div class="flex items-center gap-2 mb-5">
-                <i data-lucide="flame" class="text-error w-10 h-10"></i>
-                <span class="font-bold text-2xl">Niveau Avancé</span>
+                <i data-lucide="flame" class="text-error w-8 h-8 md:w-9 md:h-9 lg:w-10 lg:h-10"></i>
+                <span class="font-bold text-xl md:text-2xl">Niveau Avancé</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -1006,12 +1006,12 @@
 
 
     <!-- Badges et certifications -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
         <div class="flex items-center gap-2 mb-5">
-            <i data-lucide="award" class="text-warning w-12 h-12"></i>
-            <span class="font-bold text-3xl">Badges et certifications</span>
+            <i data-lucide="award" class="text-warning w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Badges et certifications</span>
         </div>
-        <span class="text-lg ml-2">Débloquez des badges en complétant les cours et parcours</span>
+        <span class="text-base md:text-lg ml-2">Débloquez des badges en complétant les cours et parcours</span>
 
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 mt-10">
             <div class="card bg-base-100 p-6 flex flex-col items-center gap-3 hover:scale-110 transition-all">
@@ -1101,12 +1101,12 @@
     </section>
 
     <!-- Terminal interactif -->
-    <section class="lg:px-65 px-4 py-20">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div class="flex items-center gap-2 mb-5">
-            <i data-lucide="terminal-square" class="text-primary w-12 h-12"></i>
-            <span class="font-bold text-3xl">Terminal interactif</span>
+            <i data-lucide="terminal-square" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Terminal interactif</span>
         </div>
-        <span class="text-lg ml-2">Pratiquez vos commandes directement dans le navigateur</span>
+        <span class="text-base md:text-lg ml-2">Pratiquez vos commandes directement dans le navigateur</span>
 
         <div class="card bg-base-200 p-8 mt-10 max-w-4xl mx-auto">
             <div class="bg-zinc-900 rounded-xl overflow-hidden shadow-2xl">
@@ -1156,12 +1156,12 @@
     </section>
 
     <!-- Cours populaires -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
         <div class="flex items-center gap-2 mb-5">
-            <i data-lucide="trending-up" class="text-success w-12 h-12"></i>
-            <span class="font-bold text-3xl">Cours populaires</span>
+            <i data-lucide="trending-up" class="text-success w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Cours populaires</span>
         </div>
-        <span class="text-lg ml-2">Les cours les plus suivis par la communauté</span>
+        <span class="text-base md:text-lg ml-2">Les cours les plus suivis par la communauté</span>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
             <div class="card bg-base-100 p-6 gap-3 hover:-translate-y-2 transition-all border-2 border-primary">
@@ -1246,10 +1246,10 @@
 
 
     <!-- Statistiques d'apprentissage -->
-    <section class="lg:px-65 px-4 py-20">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div class="flex items-center gap-2 mb-5">
-            <i data-lucide="bar-chart-3" class="text-primary w-12 h-12"></i>
-            <span class="font-bold text-3xl">Vos statistiques</span>
+            <i data-lucide="bar-chart-3" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Vos statistiques</span>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
@@ -1335,10 +1335,10 @@
     </section>
 
     <!-- FAQ -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
         <div class="flex items-center gap-2 mb-5">
-            <i data-lucide="help-circle" class="text-primary w-12 h-12"></i>
-            <span class="font-bold text-3xl">Questions fréquentes</span>
+            <i data-lucide="help-circle" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
+            <span class="font-bold text-2xl md:text-3xl">Questions fréquentes</span>
         </div>
 
         <div class="max-w-4xl mx-auto mt-10">
@@ -1405,20 +1405,20 @@
     </section>
 
     <!-- CTA Final -->
-    <section class="lg:px-65 px-4 py-20">
-        <div class="card bg-gradient-to-r from-primary to-secondary p-12 text-primary-content text-center">
-            <div class="flex flex-col items-center gap-5">
-                <i data-lucide="rocket" class="w-20 h-20"></i>
-                <span class="text-4xl font-bold">Prêt à commencer votre aventure Linux ?</span>
-                <span class="text-xl max-w-2xl">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
+        <div class="card bg-gradient-to-r from-primary to-secondary p-6 md:p-8 lg:p-12 text-primary-content text-center">
+            <div class="flex flex-col items-center gap-4 md:gap-5">
+                <i data-lucide="rocket" class="w-16 h-16 md:w-18 md:h-18 lg:w-20 lg:h-20"></i>
+                <span class="text-2xl md:text-3xl lg:text-4xl font-bold px-2">Prêt à commencer votre aventure Linux ?</span>
+                <span class="text-base md:text-lg lg:text-xl max-w-2xl px-2">
                     Rejoignez plus de 5,000 étudiants qui apprennent Linux avec RichLabs
                 </span>
-                <div class="flex gap-3 mt-5">
-                    <button class="btn btn-lg bg-white text-primary hover:bg-zinc-100">
+                <div class="flex flex-col md:flex-row gap-3 mt-3 md:mt-5 w-full md:w-auto px-2">
+                    <button class="btn btn-md md:btn-lg bg-white text-primary hover:bg-zinc-100 w-full md:w-auto">
                         <i data-lucide="play"></i>
                         Commencer maintenant
                     </button>
-                    <button class="btn btn-lg btn-outline text-white border-white hover:bg-white hover:text-primary">
+                    <button class="btn btn-md md:btn-lg btn-outline text-white border-white hover:bg-white hover:text-primary w-full md:w-auto">
                         <i data-lucide="book-open"></i>
                         Voir les parcours
                     </button>
