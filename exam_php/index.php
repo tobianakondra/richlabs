@@ -338,19 +338,19 @@
    </section>
 
    <!-- How it works -->
-   <main class="bg-base-100 py-12 md:py-16 lg:py-20 px-4">
+   <main class="bg-base-100 py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16">
         <h1 class="text-3xl md:text-4xl lg:text-5xl text-center mb-2 font-bold">Comment ça marche</h1>
         <p class="text-base md:text-lg lg:text-xl text-center">Un parcours simple et progressif pour devenir expert Linux</p>
         
         <!-- Timeline - Vertical on mobile, horizontal on desktop -->
-        <ul class="timeline timeline-vertical lg:timeline-horizontal mt-8 md:mt-10 max-w-6xl mx-auto">
+        <ul class="timeline timeline-vertical lg:timeline-horizontal mt-8 md:mt-10 max-w-6xl mx-auto overflow-x-auto">
             <li>
-                <div class="timeline-start timeline-box gap-1">
+                <div class="timeline-start timeline-box gap-1 max-w-xs">
                     <div class="flex gap-1 items-center">
                         <i data-lucide="search" class="text-pink-500 w-5 h-5"></i>
-                        <span class="font-bold text-lg md:text-xl">Choisir une distro</span>
+                        <span class="font-bold text-base md:text-lg lg:text-xl">Choisir une distro</span>
                     </div>
-                    <span class="text-sm md:text-base">Explorez et sélectionnez la distribution adaptée à vos besoins</span>
+                    <span class="text-xs md:text-sm lg:text-base">Explorez et sélectionnez la distribution adaptée à vos besoins</span>
                 </div>
                 <div class="timeline-middle">
                     <div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-primary flex items-center justify-center text-sm md:text-base">1</div>
@@ -360,36 +360,36 @@
             <li>
                 <hr class="bg-primary">
                 <div class="timeline-middle rounded-full bg-primary flex justify-center items-center w-8 h-8 md:w-10 md:h-10 text-sm md:text-base">2</div>
-                <div class="timeline-end timeline-box">
+                <div class="timeline-end timeline-box max-w-xs">
                     <div class="flex gap-1 items-center">
                         <i data-lucide="graduation-cap" class="text-pink-300 w-5 h-5"></i>
-                        <span class="font-bold text-lg md:text-xl">Suivre les cours</span>
+                        <span class="font-bold text-base md:text-lg lg:text-xl">Suivre les cours</span>
                     </div>
-                    <span class="text-sm md:text-base">Apprenez avec des tutoriels vidéo et des exercices pratiques</span>
+                    <span class="text-xs md:text-sm lg:text-base">Apprenez avec des tutoriels vidéo et des exercices pratiques</span>
                 </div>
                 <hr class="bg-primary">
             </li>
             <li>
                 <hr class="bg-primary">
                 <div class="flex justify-center items-center rounded-full bg-primary timeline-middle w-8 h-8 md:w-10 md:h-10 text-sm md:text-base">3</div>
-                <div class="timeline-start timeline-box">
+                <div class="timeline-start timeline-box max-w-xs">
                     <div class="flex gap-1 items-center">
                         <i data-lucide="code" class="text-pink-300 w-5 h-5"></i>
-                        <span class="font-bold text-lg md:text-xl">Pratiquer</span>
+                        <span class="font-bold text-base md:text-lg lg:text-xl">Pratiquer</span>
                     </div>
-                    <span class="text-sm md:text-base">Mettez en pratique dans des environnements virtuels sécurisés</span>
+                    <span class="text-xs md:text-sm lg:text-base">Mettez en pratique dans des environnements virtuels sécurisés</span>
                 </div>
                 <hr class="bg-primary">
             </li>
             <li>
                 <hr class="bg-primary">
                 <div class="timeline-middle flex items-center justify-center rounded-full w-8 h-8 md:w-10 md:h-10 bg-primary text-sm md:text-base">4</div>
-                <div class="timeline-end timeline-box">
+                <div class="timeline-end timeline-box max-w-xs">
                     <div class="flex gap-1 items-center">
                         <i data-lucide="award" class="text-pink-400 w-5 h-5"></i>
-                        <span class="font-bold text-lg md:text-xl">Certifier</span>
+                        <span class="font-bold text-base md:text-lg lg:text-xl">Certifier</span>
                     </div>
-                    <span class="text-sm md:text-base">Obtenez des certificats reconnus pour valoriser vos compétences</span>
+                    <span class="text-xs md:text-sm lg:text-base">Obtenez des certificats reconnus pour valoriser vos compétences</span>
                 </div>
             </li>
         </ul>

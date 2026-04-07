@@ -45,6 +45,7 @@
         <div class="hidden md:flex md:items-center gap-2 lg:flex lg:items-center">
                 <button 
                     class="btn"
+                    onClick="window.location.href='/auth/login.php'"
                 >
                     <i data-lucide="log-in" class="w-5 h-4"></i>
                     Se connecter
@@ -52,6 +53,7 @@
 
                 <button
                     class="btn btn-primary"
+                    onClick="window.location.href='/auth/register.php'"
                 >
                     <i data-lucide="user-plus"></i>
                     S'inscrire
@@ -106,6 +108,26 @@
                                         <i data-lucide="info"></i>
                                         A propos
                                     </a>
+                                </li>
+                                <li>
+                                    <button 
+                                        class="btn btn-outline btn-sm mr-5"
+                                        onClick="window.location.href='/auth/login.php'"
+                                    >
+                                        <i data-lucide="log-in"
+                                            class="w-4 h-4"
+                                        ></i>
+                                        Se connecter
+                                    </button>
+                                    <button 
+                                        class="btn btn-primary btn-sm mr-5 mt-2"
+                                        onClick="window.location.href='/auth/register.php'"
+                                    >
+                                        <i data-lucide="user-plus"
+                                            class="w-4 h-4"
+                                        ></i>
+                                        S'inscrire
+                                    </button>
                                 </li>
                                 
                           </ul>

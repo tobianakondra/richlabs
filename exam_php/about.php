@@ -13,11 +13,11 @@
     <?php include 'header.php'; ?>
 
     <!-- Hero Section -->
-    <section class="min-h-screen flex flex-col justify-center items-center gap-5 px-4">
+    <section class="min-h-screen flex flex-col justify-center items-center gap-5 px-4 md:px-8 lg:px-16">
         <div class="flex flex-col items-center gap-3">
-            <i data-lucide="heart" class="text-pink-500 w-20 h-20"></i>
-            <span class="text-5xl font-bold text-center">Notre Mission</span>
-            <span class="text-2xl text-center max-w-3xl">
+            <i data-lucide="heart" class="text-pink-500 w-16 h-16 md:w-18 md:h-18 lg:w-20 lg:h-20"></i>
+            <span class="text-3xl md:text-4xl lg:text-5xl font-bold text-center">Notre Mission</span>
+            <span class="text-lg md:text-xl lg:text-2xl text-center max-w-3xl px-2">
                 Démocratiser Linux et rendre l'apprentissage accessible à tous, gratuitement
             </span>
         </div>
@@ -62,9 +62,9 @@
     </section>
 
     <!-- L'histoire de Richard -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="user" class="text-primary w-12 h-12"></i>
+            <i data-lucide="user" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">L'histoire de Richard</span>
         </div>
 
@@ -129,9 +129,9 @@
     </section>
 
     <!-- Pourquoi RichLabs -->
-    <section class="lg:px-65 px-4 py-20">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="lightbulb" class="text-warning w-12 h-12"></i>
+            <i data-lucide="lightbulb" class="text-warning w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">Pourquoi RichLabs existe</span>
         </div>
 
@@ -198,9 +198,9 @@
 
 
     <!-- Nos valeurs -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="compass" class="text-primary w-12 h-12"></i>
+            <i data-lucide="compass" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">Nos valeurs fondamentales</span>
         </div>
 
@@ -248,9 +248,9 @@
     </section>
 
     <!-- Timeline -->
-    <section class="lg:px-65 px-4 py-20">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="calendar" class="text-primary w-12 h-12"></i>
+            <i data-lucide="calendar" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">Notre parcours</span>
         </div>
 
@@ -368,9 +368,9 @@
     </section>
 
     <!-- Témoignages -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="message-circle-heart" class="text-pink-500 w-12 h-12"></i>
+            <i data-lucide="message-circle-heart" class="text-pink-500 w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">Ils ont changé leur vie avec RichLabs</span>
         </div>
 
@@ -523,9 +523,9 @@
 
 
     <!-- L'équipe -->
-    <section class="lg:px-65 px-4 py-20">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="users-round" class="text-primary w-12 h-12"></i>
+            <i data-lucide="users-round" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">L'équipe RichLabs</span>
         </div>
 
@@ -631,9 +631,9 @@
     </section>
 
     <!-- Partenaires -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="handshake" class="text-primary w-12 h-12"></i>
+            <i data-lucide="handshake" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">Nos partenaires</span>
         </div>
 
@@ -666,9 +666,9 @@
     </section>
 
     <!-- Rejoignez-nous -->
-    <section class="lg:px-65 px-4 py-20">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="user-plus" class="text-success w-12 h-12"></i>
+            <i data-lucide="user-plus" class="text-success w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">Rejoignez l'aventure</span>
         </div>
 
@@ -732,9 +732,9 @@
     </section>
 
     <!-- Communauté -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="messages-square" class="text-primary w-12 h-12"></i>
+            <i data-lucide="messages-square" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">Rejoignez la communauté</span>
         </div>
 
@@ -802,9 +802,9 @@
     </section>
 
     <!-- FAQ -->
-    <section class="lg:px-65 px-4 py-20">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div class="flex items-center gap-2 mb-10">
-            <i data-lucide="help-circle" class="text-primary w-12 h-12"></i>
+            <i data-lucide="help-circle" class="text-primary w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12"></i>
             <span class="font-bold text-3xl">Questions fréquentes</span>
         </div>
 
@@ -862,20 +862,20 @@
     </section>
 
     <!-- CTA Final -->
-    <section class="lg:px-65 px-4 py-20 bg-base-200">
-        <div class="card bg-gradient-to-r from-primary to-secondary p-12 text-primary-content text-center">
-            <div class="flex flex-col items-center gap-5">
-                <i data-lucide="rocket" class="w-20 h-20"></i>
-                <span class="text-4xl font-bold">Prêt à faire partie de l'histoire ?</span>
-                <span class="text-xl max-w-2xl">
+    <section class="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20 bg-base-200">
+        <div class="card bg-gradient-to-r from-primary to-secondary p-6 md:p-8 lg:p-12 text-primary-content text-center">
+            <div class="flex flex-col items-center gap-4 md:gap-5">
+                <i data-lucide="rocket" class="w-16 h-16 md:w-18 md:h-18 lg:w-20 lg:h-20"></i>
+                <span class="text-2xl md:text-3xl lg:text-4xl font-bold px-2">Prêt à faire partie de l'histoire ?</span>
+                <span class="text-base md:text-lg lg:text-xl max-w-2xl px-2">
                     Rejoignez les 5,000+ étudiants qui apprennent Linux avec RichLabs et changez votre vie
                 </span>
-                <div class="flex gap-3 mt-5">
-                    <button class="btn btn-lg bg-white text-primary hover:bg-zinc-100">
+                <div class="flex flex-col md:flex-row gap-3 mt-3 md:mt-5 w-full md:w-auto px-2">
+                    <button class="btn btn-md md:btn-lg bg-white text-primary hover:bg-zinc-100 w-full md:w-auto">
                         <i data-lucide="graduation-cap"></i>
                         Commencer à apprendre
                     </button>
-                    <button class="btn btn-lg btn-outline text-white border-white hover:bg-white hover:text-primary">
+                    <button class="btn btn-md md:btn-lg btn-outline text-white border-white hover:bg-white hover:text-primary w-full md:w-auto">
                         <i data-lucide="users"></i>
                         Rejoindre Discord
                     </button>
