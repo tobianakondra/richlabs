@@ -44,3 +44,23 @@ Côté développement, j'ai choisi des technologies modernes pour offrir une exp
 1. Clonez le projet :
    ```bash
    git clone https://github.com/tobianakondra/richlabs.git
+   ```
+2. Déplacez le dossier dans votre répertoire `htdocs` (XAMPP/LAMPP).
+3. Importez la base de données via le fichier SQL fourni.
+4. Configurez vos accès dans `config.php`.
+
+---
+
+## 👨‍🎓 Contexte Académique
+
+Ce projet a été réalisé par **Richard**, étudiant en **deuxième année (L2)** dans la filière **L2I (Licence en Ingénierie Informatique)** à l'**Université Assane Seck de Ziguinchor (UASZ)**, Sénégal.
+
+---
+
+## 🧑‍💻 Auteur
+
+- **Richard** - [@tobianakondra](https://github.com/tobianakondra)
+- **Portfolio** : [Visiter mon site de services](https://akatsuki-ed2e7.web.app/)
+
+---
+*Projet soumis pour validation de l'unité d'enseignement Programmation Web Back End- UASZ 2026.*
