@@ -109,6 +109,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (mysqli_stmt_execute($stmt)) {
                 // On connecte l'utilisateur tout de suite
                 session_start();
+                $_SESSION["id"] = mysqli_insert_id($link);
+
                 $_SESSION["loggedin"] = true;
                 $_SESSION["username"] = $username;
                 $_SESSION["nom_complet"] = $prenom . " " . $nom;
