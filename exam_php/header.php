@@ -141,18 +141,34 @@ if (session_status() === PHP_SESSION_NONE) {
                                     A propos
                                 </a>
                             </li>
-                            <li>
-                                <button class="btn btn-outline btn-sm mr-5"
-                                    onClick="window.location.href='/auth/login.php'">
-                                    <i data-lucide="log-in" class="w-4 h-4"></i>
-                                    Se connecter
-                                </button>
-                                <button class="btn btn-primary btn-sm mr-5 mt-2"
-                                    onClick="window.location.href='/auth/register.php'">
-                                    <i data-lucide="user-plus" class="w-4 h-4"></i>
-                                    S'inscrire
-                                </button>
-                            </li>
+
+                            <?php if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true): ?>
+                                <li>
+                                    <a href="profile.php" class="text-primary font-bold">
+                                        <i data-lucide="user"></i> Mon Profil
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="auth/logout.php" class="text-error">
+                                        <i data-lucide="log-out"></i> Se déconnecter
+                                    </a>
+                                </li>
+                            <?php else: ?>
+
+                                <li>
+                                    <button class="btn btn-outline btn-sm mr-5"
+                                        onClick="window.location.href='/auth/login.php'">
+                                        <i data-lucide="log-in" class="w-4 h-4"></i>
+                                        Se connecter
+                                    </button>
+                                    <button class="btn btn-primary btn-sm mr-5 mt-2"
+                                        onClick="window.location.href='/auth/register.php'">
+                                        <i data-lucide="user-plus" class="w-4 h-4"></i>
+                                        S'inscrire
+                                    </button>
+                                </li>
+
+                            <?php endif; ?>
 
                         </ul>
                     </details>

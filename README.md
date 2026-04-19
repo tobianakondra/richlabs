@@ -1,12 +1,46 @@
-# richlabs
-RichLabs is an interactive, PHP-based web platform designed to streamline and enhance the learning experience for Linux distributions. Whether you are a beginner looking to understand the command line or an enthusiast exploring different kernels and desktop environments, RichLabs provides a structured environment to master the Linux ecosystem.
+# 🚀 RichLabs - Plateforme d'Apprentissage Linux
 
-# Key Features:
-Distro Discovery: Comprehensive guides and comparisons between popular distributions (Ubuntu, Arch, Fedora, etc.).
-Interactive Learning: Step-by-step tutorials on installation, package management, and system administration.
-Hands-on Labs: Practical exercises designed to build real-world terminal skills.
-Dynamic Resource Library: A centralized database of Linux commands, shortcuts, and best practices.
-Technical Stack:
-Backend: PHP (Core or Framework-based)
-Database: MySQL/MariaDB for user progress and content management.
-Frontend: Clean, (DaisyUI/Tailwind) for an accessible learning experience.
+**RichLabs** est un projet d'examen réalisé en **PHP procédural**. Il s'agit d'une plateforme interactive dédiée à la découverte des distributions Linux et à l'apprentissage de l'administration système.
+
+---
+
+## 🛠️ Stack Technique
+
+Côté développement, j'ai choisi des technologies modernes pour offrir une expérience utilisateur haut de gamme :
+
+- **Backend** : 🐘 `PHP 8.x` (Procédural) & `MySQL`
+- **Frontend** : 🎨 `Tailwind CSS` & `DaisyUI 5`
+- **Design & Icons** : ✨ `Lucide Icons`
+- **Serveur** : 🌐 `Apache` (LAMPP / InfinityFree)
+
+---
+
+## ✨ Fonctionnalités Principales
+
+- **Authentification Sécurisée** : Inscription et Connexion avec hachage de mot de passe (`password_hash`).
+- **Système de CRUD** :
+  - **Create** : Inscription d'un nouvel utilisateur avec validation des données.
+  - **Read** : Espace profil dynamique affichant les informations de l'utilisateur.
+  - **Update** : *(À venir / En cours)* Modification des informations de profil.
+  - **Delete** : Suppression de compte.
+- **Design Responsive** : Interface "Mobile-First" entièrement adaptée aux smartphones, tablettes et ordinateurs.
+- **Sécurité** : Protection des fichiers sensibles via `.htaccess` et gestion des sessions.
+
+---
+
+## 📸 Aperçu du Projet
+
+> [!TIP]
+> Le projet utilise le thème **Dracula** pour un confort visuel optimal (Dark Mode natif).
+
+- **Inscription** : Formulaire avec validation d'email et vérification d'existence en base de données.
+- **Dashboard Profil** : Visualisation de la progression et des informations personnelles.
+- **Navigation Dynamique** : Menu intelligent qui s'adapte selon l'état de connexion de l'utilisateur.
+
+---
+
+## 🚀 Installation Locale
+
+1. Clonez le projet :
+   ```bash
+   git clone https://github.com/tobianakondra/richlabs.git
