@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 require_once "../config.php";
 
 //definir les variables et les initialiser
-$username = $email = $password = $confirm_password = "";
+$username = $email = $password = $confirm_password = $nom = $prenom = "";
 $username_err = $password_err = $confirm_password_err = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -68,6 +68,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
+    $nom = trim($_POST["nom"]);
+    $prenom = trim($_POST["prenom"]);
 
     //valider le  mot de passe
     if (empty(trim($_POST["password"]))) {
@@ -92,23 +94,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //verifier les erreurs avant de commit dans la base de donnée
     if (empty($username_err) && empty($email_err) && empty($password_err) && empty($confirm_password_err)) {
         //preparer une requete
-        $sql = "INSERT INTO users (username, email, password) VALUES (?, ?, ?)";
+        $sql = "INSERT INTO users (username, email,nom,prenom, password) VALUES (?, ?, ?, ?, ?)";
 
         if ($stmt = mysqli_prepare($link, $sql)) {
-            mysqli_stmt_bind_param($stmt, "sss", $param_username, $param_email, $param_password);
+            mysqli_stmt_bind_param($stmt, "sssss", $param_username, $param_email, $param_nom, $param_prenom, $param_password);
 
             //configurer les parametres
             $param_username = $username;
             $param_email = $email;
             $param_password = password_hash($password, PASSWORD_DEFAULT);
+            $param_nom = $nom;
+            $param_prenom = $prenom;
 
             if (mysqli_stmt_execute($stmt)) {
-                //redirection apres une cration de compte reussie
-                header("location: login.php");
+                // On connecte l'utilisateur tout de suite
+                session_start();
+                $_SESSION["loggedin"] = true;
+                $_SESSION["username"] = $username;
+                $_SESSION["nom_complet"] = $prenom . " " . $nom;
+                $_SESSION["email"] = $email;
+
+                header("location: profile.php");
                 exit;
-            } else {
-                echo "Oops! Something went wrong. Please try again later";
             }
+
+
             //fermer la requete
             mysqli_stmt_close($stmt);
         }

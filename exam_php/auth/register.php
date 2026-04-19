@@ -46,6 +46,16 @@
                             </div>
                         </div>
 
+                        <div class="form-control">
+                            <label class="label"><span class="label-text">Prénom</span></label>
+                            <input type="text" name="prenom" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control">
+                            <label class="label"><span class="label-text">Nom</span></label>
+                            <input type="text" name="nom" class="input input-bordered" required />
+                        </div>
+
+
                         <!-- Email -->
                         <div class="form-control">
                             <label class="label">
