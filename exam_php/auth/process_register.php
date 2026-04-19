@@ -114,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $_SESSION["nom_complet"] = $prenom . " " . $nom;
                 $_SESSION["email"] = $email;
 
-                header("location: profile.php");
+                header("location: ../profile.php");
                 exit;
             }
 

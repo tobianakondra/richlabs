@@ -46,13 +46,26 @@
                             </div>
                         </div>
 
-                        <div class="form-control">
-                            <label class="label"><span class="label-text">Prénom</span></label>
-                            <input type="text" name="prenom" class="input input-bordered" required />
+                        <!-- Prénom -->
+                        <div class="form-control w-full">
+                            <label class="label">
+                                <span class="label-text font-semibold">Prénom</span>
+                            </label>
+                            <div class="input input-bordered flex items-center gap-2">
+                                <i data-lucide="user" class="w-4 h-4 opacity-70"></i>
+                                <input type="text" name="prenom" placeholder="John" class="grow" required />
+                            </div>
                         </div>
-                        <div class="form-control">
-                            <label class="label"><span class="label-text">Nom</span></label>
-                            <input type="text" name="nom" class="input input-bordered" required />
+
+                        <!-- Nom -->
+                        <div class="form-control w-full">
+                            <label class="label">
+                                <span class="label-text font-semibold">Nom</span>
+                            </label>
+                            <div class="input input-bordered flex items-center gap-2">
+                                <i data-lucide="user" class="w-4 h-4 opacity-70"></i>
+                                <input type="text" name="nom" placeholder="Doe" class="grow" required />
+                            </div>
                         </div>
 
 
