@@ -143,7 +143,7 @@
                     <span>Paquets: APT (deb)</span>
                     <span>Bureau: GNOME</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=ubuntu" class="btn btn-primary">Découvrir</a>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
@@ -162,7 +162,7 @@
                     <span>Paquets: DNF (rpm)</span>
                     <span>Bureau: GNOME</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=fedora" class="btn btn-primary">Découvrir</a>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
@@ -181,7 +181,7 @@
                     <span>Paquets: APT (deb)</span>
                     <span>Bureau: Multiple</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=debian" class="btn btn-primary">Découvrir</a>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
@@ -200,7 +200,7 @@
                     <span>Paquets: Pacman</span>
                     <span>Bureau: A choisir</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=arch" class="btn btn-primary">Découvrir</a>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
@@ -218,7 +218,7 @@
                     <span>Paquets: APT (deb)</span>
                     <span>Bureau: Cinnamon</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=mint" class="btn btn-primary">Découvrir</a>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
@@ -237,7 +237,7 @@
                     <span>Paquets: APT (deb)</span>
                     <span>Bureau: Xcfe</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=kali" class="btn btn-primary">Découvrir</a>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
@@ -256,7 +256,7 @@
                     <span>Paquets: APT (deb)</span>
                     <span>Bureau: Cosmic</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=popos" class="btn btn-primary">Découvrir</a>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
@@ -274,7 +274,7 @@
                     <span>Paquets: Pacman</span>
                     <span>Bureau: Multiple</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=manjaro" class="btn btn-primary">Découvrir</a>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
@@ -292,7 +292,7 @@
                     <span>Paquets: APT (deb)</span>
                     <span>Bureau: Pantheon</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=elementary" class="btn btn-primary">Découvrir</a>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
@@ -310,7 +310,7 @@
                     <span>Paquets: DNF (rpm)</span>
                     <span>Bureau: GNOME</span>
                 </div>
-                <button class="btn btn-primary">Découvrir</button>
+                <a href="distro_details.php?id=rocky" class="btn btn-primary">Découvrir</a>
             </div>
         </article>
 

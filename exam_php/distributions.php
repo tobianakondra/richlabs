@@ -131,13 +131,13 @@
                         <span>Bureau: GNOME</span>
                     </div>
                     <div class="flex justify-end gap-2">
-                        <button class="btn btn-outline btn-sm">
+                        <a href="distro_details.php?id=ubuntu" class="btn btn-outline btn-sm">
                             <i
                                 data-lucide="info"
                                 class="h-5 w-5"
                             ></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm">
                             <i 
                                 data-lucide="download"
@@ -168,13 +168,13 @@
                         <span>Bureau: Cinnamon</span>
                     </div>
                     <div class="flex justify-end gap-2">
-                        <button class="btn btn-outline btn-sm">
+                        <a href="distro_details.php?id=mint" class="btn btn-outline btn-sm">
                             <i 
                                 data-lucide="info"
                                 class="h-5 w-5"
                             ></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm">
                             <i 
                                 data-lucide="download"
@@ -197,7 +197,7 @@
                         <div class="badge badge-neutral badge-xl">Design</div>
                         <div class="badge badge-neutral badge-xl">Desktop</div>
                     </div>
-                    <   span>Design élégant inspiré de macOS. Interface épurée et expérience utilisateur soignée.</span>
+                    <span>Design élégant inspiré de macOS. Interface épurée et expérience utilisateur soignée.</span>
                     <div class="divider my-2"></div>
                     <div class="flex flex-col">
                         <span>Sortie: 2011</span>
@@ -205,13 +205,13 @@
                         <span>Bureau: Pantheon</span>
                     </div>
                     <div class="flex justify-end gap-2">
-                        <button class="btn btn-outline btn-sm">
+                        <a href="distro_details.php?id=elementary" class="btn btn-outline btn-sm">
                             <i 
                                 data-lucide="info"
                                 class="h-5 w-5"
                             ></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm">
                             <i 
                                 data-lucide="download"
@@ -258,13 +258,13 @@
                     <span>Bureau: GNOME</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                        <button class="btn btn-outline btn-sm">
+                        <a href="distro_details.php?id=fedora" class="btn btn-outline btn-sm">
                             <i 
                                 data-lucide="info"
                                 class="h-5 w-5"
                             ></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm">
                             <i 
                                 data-lucide="download"
@@ -295,13 +295,13 @@
                     <span>Bureau: Cosmic</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=popos" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -332,13 +332,13 @@
                     <span>Bureau: A choisir</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=arch" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -386,13 +386,13 @@
                     <span>Bureau: Xcfe</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=kali" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -423,13 +423,13 @@
                     <span>Bureau: MATE</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=parrot" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -478,13 +478,13 @@
                     <span>Bureau: Xcfe</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=csi" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -515,13 +515,13 @@
                     <span>Bureau: Xcfe</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=tracelabs" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -568,13 +568,13 @@
                     <span>Bureau: COSMIC</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=popos" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -605,13 +605,13 @@
                     <span>Bureau: KDE/GNOME</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=nobara" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -642,13 +642,13 @@
                     <span>Bureau: KDE/GNOME</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=garuda" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -695,13 +695,13 @@
                     <span>Bureau: XFCE</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=securityonion" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
@@ -732,13 +732,13 @@
                     <span>Bureau: Server</span>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button class="btn btn-outline btn-sm">
+                    <a href="distro_details.php?id=wazuh" class="btn btn-outline btn-sm">
                         <i 
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
-                    </button>
+                    </a>
                     <button class="btn btn-primary btn-sm">
                         <i 
                             data-lucide="download"
