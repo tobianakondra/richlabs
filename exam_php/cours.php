@@ -441,10 +441,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=intro_linux" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -472,10 +472,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -503,10 +503,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -534,10 +534,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -565,10 +565,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -596,10 +596,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -638,10 +638,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -669,10 +669,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -700,10 +700,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -731,10 +731,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=scripts_bash" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -762,10 +762,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -793,10 +793,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -835,10 +835,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -866,10 +866,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -897,10 +897,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -928,10 +928,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -959,10 +959,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
@@ -990,10 +990,10 @@
                     </div>
 
                     <div class="flex gap-2 mt-3">
-                        <button class="btn btn-outline btn-sm flex-1">
+                        <a href="course_details.php?id=commandes_base" class="btn btn-outline btn-sm flex-1">
                             <i data-lucide="info"></i>
                             Détails
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-sm flex-1">
                             <i data-lucide="play"></i>
                             Commencer
