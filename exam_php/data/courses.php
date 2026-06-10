@@ -7,15 +7,15 @@ $courses = [
         'level' => 'Débutant',
         'level_color' => 'badge-success',
         'duration' => '3h',
-        'lessons_count' => 12,
+        'lessons_count' => 6,
         'students' => 856,
-        'description' => 'Ce cours est la porte d\'entrée idéale pour tout nouveau venu dans l\'univers Linux. Nous couvrirons l\'histoire, la philosophie de l\'open-source, et nous vous guiderons pas à pas dans votre première installation.',
+        'description' => 'Ce cours est la porte d\'entrée idéale pour tout nouveau venu dans l\'univers Linux. Nous couvrirons l\'histoire, la philosophie de l\'open-source, et la découverte de l\'interface utilisateur.',
         'learning_objectives' => [
             'Comprendre ce qu\'est un noyau (kernel) et une distribution.',
             'Connaître l\'histoire et la philosophie de Linux.',
-            'Savoir choisir sa première distribution.',
-            'Installer Linux dans une machine virtuelle (VM).',
-            'Se familiariser avec l\'interface graphique et le bureau.'
+            'Découvrir la puissance de la personnalisation sous Linux.',
+            'Se familiariser avec les différents environnements de bureau.',
+            'Comprendre l\'arborescence des fichiers Linux.'
         ],
         'modules' => [
             [
@@ -23,12 +23,8 @@ $courses = [
                 'lessons' => ['C\'est quoi Linux ?', 'L\'histoire de Linus Torvalds', 'Le Logiciel Libre vs Open Source']
             ],
             [
-                'title' => 'Module 2 : Choisir et Installer',
-                'lessons' => ['Tour d\'horizon des distributions', 'Préparer son support d\'installation', 'Installation pas à pas d\'Ubuntu']
-            ],
-            [
-                'title' => 'Module 3 : Premier pas',
-                'lessons' => ['Découverte de l\'interface', 'Le gestionnaire de fichiers', 'Paramètres système essentiels']
+                'title' => 'Module 2 : Découverte et Interface',
+                'lessons' => ['La puissance de la personnalisation', 'L\'arborescence des fichiers', 'Maîtrise et État d\'esprit']
             ]
         ],
         'preview_video' => 'https://www.youtube-nocookie.com/embed/ShcR4Zfc6Dw'

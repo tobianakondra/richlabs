@@ -15,7 +15,8 @@ $distros = [
         'install_cmd' => 'sudo apt update && sudo apt install neofetch',
         'website' => 'https://ubuntu.com',
         'difficulty' => 'Débutant',
-        'difficulty_color' => 'badge-success'
+        'difficulty_color' => 'badge-success',
+        'download_url' => 'https://ubuntu.com/download/desktop'
     ],
     'arch' => [
         'name' => 'Arch Linux',
@@ -32,7 +33,8 @@ $distros = [
         'install_cmd' => 'sudo pacman -Syu neofetch',
         'website' => 'https://archlinux.org',
         'difficulty' => 'Avancé',
-        'difficulty_color' => 'badge-error'
+        'difficulty_color' => 'badge-error',
+        'download_url' => 'https://archlinux.org/download/'
     ],
     'debian' => [
         'name' => 'Debian',
@@ -49,7 +51,8 @@ $distros = [
         'install_cmd' => 'sudo apt update && sudo apt install neofetch',
         'website' => 'https://debian.org',
         'difficulty' => 'Intermédiaire',
-        'difficulty_color' => 'badge-warning'
+        'difficulty_color' => 'badge-warning',
+        'download_url' => 'https://www.debian.org/distrib/'
     ],
     'manjaro' => [
         'name' => 'Manjaro',
@@ -66,7 +69,8 @@ $distros = [
         'install_cmd' => 'pamac install neofetch',
         'website' => 'https://manjaro.org',
         'difficulty' => 'Intermédiaire',
-        'difficulty_color' => 'badge-warning'
+        'difficulty_color' => 'badge-warning',
+        'download_url' => 'https://manjaro.org/download/'
     ],
     'rocky' => [
         'name' => 'Rocky Linux',
@@ -83,9 +87,10 @@ $distros = [
         'install_cmd' => 'sudo dnf install neofetch',
         'website' => 'https://rockylinux.org',
         'difficulty' => 'Intermédiaire',
-        'difficulty_color' => 'badge-warning'
+        'difficulty_color' => 'badge-warning',
+        'download_url' => 'https://rockylinux.org/download'
     ],
-    'fedora' => [
+    'kali' => [
         'name' => 'Kali Linux',
         'logo' => 'https://cdn.simpleicons.org/kalilinux/557C94',
         'banner_color' => 'from-slate-700 to-blue-900',
@@ -100,7 +105,8 @@ $distros = [
         'install_cmd' => 'sudo apt install exploitdb',
         'website' => 'https://www.kali.org',
         'difficulty' => 'Avancé',
-        'difficulty_color' => 'badge-error'
+        'difficulty_color' => 'badge-error',
+        'download_url' => 'https://www.kali.org/get-kali/'
     ],
     'fedora' => [
         'name' => 'Fedora',
@@ -117,7 +123,8 @@ $distros = [
         'install_cmd' => 'sudo dnf install neofetch',
         'website' => 'https://fedoraproject.org',
         'difficulty' => 'Intermédiaire',
-        'difficulty_color' => 'badge-warning'
+        'difficulty_color' => 'badge-warning',
+        'download_url' => 'https://fedoraproject.org/workstation/download'
     ],
     'mint' => [
         'name' => 'Linux Mint',
@@ -134,7 +141,8 @@ $distros = [
         'install_cmd' => 'sudo apt update && sudo apt install mint-meta-codecs',
         'website' => 'https://linuxmint.com',
         'difficulty' => 'Débutant',
-        'difficulty_color' => 'badge-success'
+        'difficulty_color' => 'badge-success',
+        'download_url' => 'https://linuxmint.com/download.php'
     ],
     'elementary' => [
         'name' => 'Elementary OS',
@@ -151,7 +159,8 @@ $distros = [
         'install_cmd' => 'sudo apt update && sudo apt install flatpak',
         'website' => 'https://elementary.io',
         'difficulty' => 'Débutant',
-        'difficulty_color' => 'badge-success'
+        'difficulty_color' => 'badge-success',
+        'download_url' => 'https://elementary.io'
     ],
     'popos' => [
         'name' => 'Pop!_OS',
@@ -168,7 +177,8 @@ $distros = [
         'install_cmd' => 'sudo apt update && sudo apt install pop-desktop',
         'website' => 'https://pop.system76.com',
         'difficulty' => 'Débutant',
-        'difficulty_color' => 'badge-success'
+        'difficulty_color' => 'badge-success',
+        'download_url' => 'https://pop.system76.com'
     ],
     'parrot' => [
         'name' => 'Parrot OS',
@@ -185,7 +195,8 @@ $distros = [
         'install_cmd' => 'sudo apt update && sudo apt install parrot-tools-full',
         'website' => 'https://parrotsec.org',
         'difficulty' => 'Avancé',
-        'difficulty_color' => 'badge-error'
+        'difficulty_color' => 'badge-error',
+        'download_url' => 'https://www.parrotsec.org/download/'
     ],
     'csi' => [
         'name' => 'CSI Linux',
@@ -202,7 +213,8 @@ $distros = [
         'install_cmd' => 'sudo apt update && sudo apt install csi-linux-tools',
         'website' => 'https://csilinux.com',
         'difficulty' => 'Intermédiaire',
-        'difficulty_color' => 'badge-warning'
+        'difficulty_color' => 'badge-warning',
+        'download_url' => 'https://csilinux.com/downloads/'
     ],
     'tracelabs' => [
         'name' => 'Trace Labs OSINT',
@@ -219,7 +231,8 @@ $distros = [
         'install_cmd' => 'sudo apt update && sudo apt full-upgrade',
         'website' => 'https://www.tracelabs.org',
         'difficulty' => 'Avancé',
-        'difficulty_color' => 'badge-error'
+        'difficulty_color' => 'badge-error',
+        'download_url' => 'https://www.tracelabs.org/osint-vm'
     ],
     'nobara' => [
         'name' => 'Nobara',
@@ -236,7 +249,8 @@ $distros = [
         'install_cmd' => 'sudo dnf update',
         'website' => 'https://nobaraproject.org',
         'difficulty' => 'Intermédiaire',
-        'difficulty_color' => 'badge-warning'
+        'difficulty_color' => 'badge-warning',
+        'download_url' => 'https://nobaraproject.org/download/'
     ],
     'garuda' => [
         'name' => 'Garuda Linux',
@@ -253,7 +267,8 @@ $distros = [
         'install_cmd' => 'sudo pacman -Syu',
         'website' => 'https://garudalinux.org',
         'difficulty' => 'Intermédiaire',
-        'difficulty_color' => 'badge-warning'
+        'difficulty_color' => 'badge-warning',
+        'download_url' => 'https://garudalinux.org/downloads.html'
     ],
     'securityonion' => [
         'name' => 'Security Onion',
@@ -270,7 +285,8 @@ $distros = [
         'install_cmd' => 'sudo sosetup',
         'website' => 'https://securityonion.net',
         'difficulty' => 'Avancé',
-        'difficulty_color' => 'badge-error'
+        'difficulty_color' => 'badge-error',
+        'download_url' => 'https://securityonion.net/download'
     ],
     'wazuh' => [
         'name' => 'Wazuh',

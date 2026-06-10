@@ -57,12 +57,12 @@ $course = $courses[$id];
                 </div>
 
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="btn btn-primary btn-lg px-12 gap-3 shadow-lg shadow-primary/20">
+                    <a href="course_view.php?id=<?php echo $id; ?>" class="btn btn-primary btn-lg px-12 gap-3 shadow-lg shadow-primary/20">
                         <i data-lucide="play-circle"></i> Commencer le cours
-                    </button>
+                    </a>
                     <button class="btn btn-outline btn-lg gap-3">
                         <i data-lucide="heart"></i> Ajouter aux favoris
-                    </button>
+                    </a>
                 </div>
             </div>
 

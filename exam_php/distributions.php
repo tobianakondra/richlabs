@@ -138,18 +138,18 @@
                             ></i>
                             Détails
                         </a>
-                        <button class="btn btn-primary btn-sm">
-                            <i 
+                        <a href="https://ubuntu.com/download/desktop" target="_blank" class="btn btn-primary btn-sm">
+                            <i
                                 data-lucide="download"
                                 class="h-5 w-5"
                             ></i>
                             Télécharger
-                        </button>
+                        </a>
                     </div>
                 </div>
 
                 <div class="card bg-base-200 p-6 gap-3">
-                    <img 
+                    <img
                         src="https://cdn.simpleicons.org/linuxmint/87CF3E" 
                         alt="linux-miny-logo"
                         class="w-20 h-20"
@@ -169,24 +169,24 @@
                     </div>
                     <div class="flex justify-end gap-2">
                         <a href="distro_details.php?id=mint" class="btn btn-outline btn-sm">
-                            <i 
+                            <i
                                 data-lucide="info"
                                 class="h-5 w-5"
                             ></i>
                             Détails
                         </a>
-                        <button class="btn btn-primary btn-sm">
-                            <i 
+                        <a href="https://linuxmint.com/download.php" target="_blank" class="btn btn-primary btn-sm">
+                            <i
                                 data-lucide="download"
                                 class="h-5 w-5"
                             ></i>
                             Télécharger
-                        </button>
+                        </a>
                     </div>
                 </div>
 
                 <div class="card bg-base-200 p-6 gap-3">
-                    <img 
+                    <img
                         src="https://cdn.simpleicons.org/elementary/64BAFF" 
                         alt="elementary-os-logo"
                         class="w-20 h-20"
@@ -206,23 +206,23 @@
                     </div>
                     <div class="flex justify-end gap-2">
                         <a href="distro_details.php?id=elementary" class="btn btn-outline btn-sm">
-                            <i 
+                            <i
                                 data-lucide="info"
                                 class="h-5 w-5"
                             ></i>
                             Détails
                         </a>
-                        <button class="btn btn-primary btn-sm">
-                            <i 
+                        <a href="https://elementary.io" target="_blank" class="btn btn-primary btn-sm">
+                            <i
                                 data-lucide="download"
                                 class="h-5 w-5"
                             ></i>
                             Télécharger
-                        </button>
+                        </a>
                     </div>
                 </div>
             </article>
-    </section>  
+    </section>
 
     <!-- Pour les développeurs -->
     <section class="px-4 md:px-8 lg:px-16 py-8 md:py-12 lg:py-16 bg-base-200">
@@ -259,24 +259,24 @@
                 </div>
                 <div class="flex justify-end gap-2">
                         <a href="distro_details.php?id=fedora" class="btn btn-outline btn-sm">
-                            <i 
+                            <i
                                 data-lucide="info"
                                 class="h-5 w-5"
                             ></i>
                             Détails
                         </a>
-                        <button class="btn btn-primary btn-sm">
-                            <i 
+                        <a href="https://fedoraproject.org/workstation/download" target="_blank" class="btn btn-primary btn-sm">
+                            <i
                                 data-lucide="download"
                                 class="h-5 w-5"
                             ></i>
                             Télécharger
-                        </button>
+                        </a>
                 </div>
             </div>
 
            <div class="card bg-base-100 p-6 gap-3">
-                <img 
+                <img
                     src="https://cdn.simpleicons.org/popos/48B9C7" 
                     alt="pop-os-logo"
                     class="w-20 h-20"
@@ -296,24 +296,24 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=popos" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://pop.system76.com" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3">
-                <img 
+                <img
                     src="https://cdn.simpleicons.org/archlinux/1793D1" 
                     alt="arch-linux-logo"
                     class="w-20 h-20"
@@ -333,19 +333,19 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=arch" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://archlinux.org/download/" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
 
@@ -387,24 +387,24 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=kali" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://www.kali.org/get-kali/" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
 
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2">
-                <img 
+                <img
                     src="https://cdn.simpleicons.org/parrotsecurity/00D9FF" 
                     alt="kali-linux-logo"
                     class="w-20 h-20"
@@ -424,24 +424,24 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=parrot" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://www.parrotsec.org/download/" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
 
         </article>
-            
+
     </section>
 
     <!-- Pour l'OSINT -->
@@ -479,24 +479,24 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=csi" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://csilinux.com/downloads/" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
 
              <div class="card bg-base-100 p-6 gap-3 hover:-translate-y-2">
-                <img 
+                <img
                     src="tracelabs.jpeg" 
                     alt="traceLabs"
                     class="w-20 h-20 rounded-full"
@@ -516,19 +516,19 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=tracelabs" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://www.tracelabs.org/osint-vm" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
         </article>
@@ -569,24 +569,24 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=popos" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://pop.system76.com" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
 
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2">
-                <img 
+                <img
                     src="nobara.jpeg" 
                     alt="pop!_os"
                     class="w-20 h-20 rounded-full"
@@ -606,24 +606,24 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=nobara" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://nobaraproject.org/download/" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
 
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2">
-                <img 
+                <img
                     src="https://cdn.simpleicons.org/garudalinux/0080FF" 
                     alt="pop!_os"
                     class="w-20 h-20"
@@ -643,19 +643,19 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=garuda" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://garudalinux.org/downloads.html" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
         </article>
@@ -696,24 +696,24 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=securityonion" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://securityonion.net/download" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
 
             <div class="card bg-base-100 p-6 gap-3 hover:-translate-y-2">
-                <img 
+                <img
                     src="https://cdn.simpleicons.org/linux/FCC624" 
                     alt="Wazuh"
                     class="w-20 h-20"
@@ -733,19 +733,19 @@
                 </div>
                 <div class="flex justify-end gap-2">
                     <a href="distro_details.php?id=wazuh" class="btn btn-outline btn-sm">
-                        <i 
+                        <i
                             data-lucide="info"
                             class="h-5 w-5"
                         ></i>
                         Détails
                     </a>
-                    <button class="btn btn-primary btn-sm">
-                        <i 
+                    <a href="https://wazuh.com" target="_blank" class="btn btn-primary btn-sm">
+                        <i
                             data-lucide="download"
                             class="h-5 w-5"
                         ></i>
                         Télécharger
-                    </button>
+                    </a>
                 </div>
             </div>
         </article>

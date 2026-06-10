@@ -155,9 +155,9 @@ $distro = $distros[$id];
                     <a href="distributions.php" class="btn btn-ghost gap-2">
                         <i data-lucide="arrow-left"></i> Retour
                     </a>
-                    <button class="btn btn-primary btn-lg gap-3">
+                    <a href="<?php echo $distro['download_url']; ?>" target="_blank" class="btn btn-primary btn-lg gap-3">
                         <i data-lucide="download"></i> Télécharger l'ISO
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
