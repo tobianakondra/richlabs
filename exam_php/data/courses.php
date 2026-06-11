@@ -84,5 +84,45 @@ $courses = [
                 'lessons' => ['Les tests de fichiers', 'Structures conditionnelles', 'Les boucles For et While']
             ]
         ]
+    ],
+    'installation_linux' => [
+        'title' => 'Installation de Linux',
+        'icon' => 'download',
+        'color' => 'text-purple-400',
+        'level' => 'Intermédiaire',
+        'level_color' => 'badge-warning',
+        'duration' => '1h45',
+        'lessons_count' => 8,
+        'students' => 987,
+        'description' => 'Apprenez à installer Linux en dual-boot ou en machine virtuelle. Ce cours vous guide pas à pas pour installer Ubuntu sur votre ordinateur.',
+        'learning_objectives' => [
+            'Comprendre les prérequis matériels (RAM, espace disque, clé USB).',
+            'Télécharger l\'ISO officielle d\'Ubuntu.',
+            'Créer une clé USB bootable avec Rufus (Windows) ou balenaEtcher (Linux/macOS).',
+            'Configurer le BIOS/UEFI pour démarrer sur USB.',
+            'Effectuer l\'installation complète étape par étape.',
+            'Choisir le bon schéma de partition (GPT vs MBR) et système de fichiers (exFAT vs FAT32).',
+            'Créer son compte utilisateur et configurer le fuseau horaire.',
+            'Vérifier le bon fonctionnement après installation.'
+        ],
+        'modules' => [
+            [
+                'title' => 'Module 1 : Téléchargement d\'Ubuntu',
+                'lessons' => ['Pourquoi Ubuntu ?', 'Télécharger l\'ISO 24.04 LTS', 'Vérifier l\'intégrité du fichier']
+            ],
+            [
+                'title' => 'Module 2 : Clé USB bootable',
+                'lessons' => ['Choisir sa clé USB (8 Go min)', 'Rufus sur Windows', 'balenaEtcher sur Linux/macOS']
+            ],
+            [
+                'title' => 'Module 3 : Démarrage sur USB',
+                'lessons' => ['Accéder au BIOS/UEFI (touches par marque)', 'Désactiver Secure Boot si nécessaire', 'Changer l\'ordre de boot']
+            ],
+            [
+                'title' => 'Module 4 : Installation pas à pas',
+                'lessons' => ['Langue, WiFi et mises à jour', 'Type d\'installation (normal/minimal)', 'Partition du disque (GPT)', 'Créer son utilisateur', 'Finaliser et redémarrer']
+            ]
+        ],
+        'preview_video' => 'https://www.youtube-nocookie.com/embed/ShcR4Zfc6Dw'
     ]
 ];

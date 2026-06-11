@@ -556,15 +556,15 @@
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2 transition-all">
                 <div class="avatar mx-auto">
                     <div class="w-32 rounded-full">
-                        <img src="https://i.pravatar.cc/150?img=15" alt="Sophie" />
+                        <img src="review1.jpeg" alt="talibe" />
                     </div>
                 </div>
                 <div class="text-center">
-                    <div class="font-bold text-xl">Sophie</div>
+                    <div class="font-bold text-xl">Aladji Mamoudou Talibé Diallo</div>
                     <div class="text-sm text-primary">Instructrice DevOps</div>
                 </div>
                 <p class="text-sm text-center">
-                    Experte en automatisation et CI/CD. Crée les cours sur Docker, Kubernetes et Ansible.
+                    Expert en automatisation et CI/CD. Crée les cours sur Docker, Kubernetes et Ansible.
                 </p>
                 <div class="flex justify-center gap-2">
                     <button class="btn btn-circle btn-sm btn-outline">
@@ -579,11 +579,11 @@
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2 transition-all">
                 <div class="avatar mx-auto">
                     <div class="w-32 rounded-full">
-                        <img src="https://i.pravatar.cc/150?img=33" alt="Karim" />
+                        <img src="review30.jpeg" alt="alga" />
                     </div>
                 </div>
                 <div class="text-center">
-                    <div class="font-bold text-xl">Karim</div>
+                    <div class="font-bold text-xl">Algassimou Diallo</div>
                     <div class="text-sm text-primary">Expert Cybersécurité</div>
                 </div>
                 <p class="text-sm text-center">
@@ -602,15 +602,61 @@
             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2 transition-all">
                 <div class="avatar mx-auto">
                     <div class="w-32 rounded-full">
-                        <img src="https://i.pravatar.cc/150?img=47" alt="Emma" />
+                        <img src="review-hassim.jpeg" alt="hassim" />
                     </div>
                 </div>
                 <div class="text-center">
-                    <div class="font-bold text-xl">Emma</div>
+                    <div class="font-bold text-xl">Mohamed Hassim Diatta</div>
                     <div class="text-sm text-primary">Community Manager</div>
                 </div>
                 <p class="text-sm text-center">
                     Gère la communauté Discord et le forum. Toujours là pour aider les étudiants.
+                </p>
+                <div class="flex justify-center gap-2">
+                    <button class="btn btn-circle btn-sm btn-outline">
+                        <i data-lucide="linkedin" class="w-4 h-4"></i>
+                    </button>
+                    <button class="btn btn-circle btn-sm btn-outline">
+                        <i data-lucide="twitter" class="w-4 h-4"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2 transition-all">
+                <div class="avatar mx-auto">
+                    <div class="w-32 rounded-full">
+                        <img src="review5.jpeg" alt="coly" />
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="font-bold text-xl">Mouhamadou Lamine Coly</div>
+                    <div class="text-sm text-primary">Chef de Projet</div>
+                </div>
+                <p class="text-sm text-center">
+                     Dans mon planning, tout fonctionne. Dans ton code aussi. C'est la réalité qui déconne.
+                </p>
+                <div class="flex justify-center gap-2">
+                    <button class="btn btn-circle btn-sm btn-outline">
+                        <i data-lucide="linkedin" class="w-4 h-4"></i>
+                    </button>
+                    <button class="btn btn-circle btn-sm btn-outline">
+                        <i data-lucide="twitter" class="w-4 h-4"></i>
+                    </button>
+                </div>
+            </div>
+
+             <div class="card bg-base-200 p-6 gap-3 hover:-translate-y-2 transition-all">
+                <div class="avatar mx-auto">
+                    <div class="w-32 rounded-full">
+                        <img src="gaelle.jpeg" alt="gaelle" />
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="font-bold text-xl">Gaelle Chadia Bakilang</div>
+                    <div class="text-sm text-primary">Experte en Communication</div>
+                </div>
+                <p class="text-sm text-center">
+                    Si tu ne peux pas expliquer ton architecture à un enfant de 5 ans, c'est que tu ne comprends pas ta propre stack.
                 </p>
                 <div class="flex justify-center gap-2">
                     <button class="btn btn-circle btn-sm btn-outline">
