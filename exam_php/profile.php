@@ -54,29 +54,50 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                             </div>
                         </div>
 
-                        <div class="card-actions w-full mt-6">
-                            <a href="auth/logout.php" class="btn btn-outline btn-error btn-sm md:btn-md w-full">
-                                <i data-lucide="log-out" class="w-4 h-4"></i>
-                                Déconnexion
-                            </a>
-                        </div>
-
                         <div class="card-actions w-full mt-6 flex flex-col gap-2">
                             <a href="edit_profile.php" class="btn btn-primary btn-sm md:btn-md w-full">
-                                <!-- Bouton Modifier -->
                                 <i data-lucide="edit-3" class="w-4 h-4"></i>
                                 Modifier mon profil
                             </a>
 
-                            <!-- Bouton Déconnexion existant -->
                             <a href="auth/logout.php" class="btn btn-outline btn-error btn-sm md:btn-md w-full">
                                 <i data-lucide="log-out" class="w-4 h-4"></i>
                                 Déconnexion
                             </a>
                         </div>
 
+                        <!-- Zone de Danger -->
+                        <div class="divider my-4"></div>
+                        <div class="w-full">
+                            <p class="text-[10px] uppercase font-bold text-error mb-2 opacity-50">Zone de danger</p>
+                            <button onclick="delete_modal.showModal()" class="btn btn-ghost btn-xs text-error hover:bg-error hover:text-white w-full">
+                                <i data-lucide="trash-2" class="w-3 h-3"></i>
+                                Supprimer mon compte
+                            </button>
+                        </div>
+
                     </div>
                 </div>
+
+                <!-- Modal de Confirmation de Suppression -->
+                <dialog id="delete_modal" class="modal modal-bottom sm:modal-middle">
+                    <div class="modal-box border border-error/20 shadow-2xl">
+                        <h3 class="text-2xl font-black text-error flex items-center gap-3">
+                            <i data-lucide="alert-triangle"></i> Attention !
+                        </h3>
+                        <p class="py-4 opacity-80">
+                            Cette action est <strong>définitive</strong>. Toutes vos progressions de cours et vos données personnelles seront supprimées de nos serveurs.
+                        </p>
+                        <div class="modal-action">
+                            <form method="dialog">
+                                <button class="btn">Annuler</button>
+                            </form>
+                            <form action="auth/process_delete.php" method="POST">
+                                <button type="submit" class="btn btn-error shadow-lg shadow-error/20">Oui, supprimer définitivement</button>
+                            </form>
+                        </div>
+                    </div>
+                </dialog>
 
                 <!-- Stats rapides -->
                 <div class="stats shadow bg-base-100 w-full sm:stats-horizontal lg:stats-vertical">

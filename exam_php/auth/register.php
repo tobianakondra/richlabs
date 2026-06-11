@@ -34,6 +34,17 @@
             <!-- Registration Card -->
             <div class="card bg-base-100 shadow-2xl">
                 <div class="card-body p-6 md:p-8">
+
+                    <?php if(isset($_GET['msg']) && $_GET['msg'] === 'account_deleted'): ?>
+                        <div class="alert alert-success mb-6 shadow-lg">
+                            <i data-lucide="check-circle"></i>
+                            <div>
+                                <h3 class="font-bold">Compte supprimé</h3>
+                                <div class="text-xs">Votre compte et vos données ont été retirés avec succès.</div>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+
                     <form action="process_register.php" method="POST" class="flex flex-col gap-4">
                         <!-- Username -->
                         <div class="form-control">
